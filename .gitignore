@@ -44,3 +44,5 @@ artifacts/
 *.out
 *.err
 *.log
+
+_smoke_*/
