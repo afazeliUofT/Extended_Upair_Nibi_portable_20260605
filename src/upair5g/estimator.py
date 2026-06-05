@@ -110,6 +110,7 @@ class UPAIRChannelEstimator(tf.keras.Model):
         ls_estimator: Any,
         resource_grid: Any,
         cfg: dict[str, Any],
+        pilot_mask: tf.Tensor | None = None,
         **kwargs: Any,
     ) -> None:
         super().__init__(name="upair_channel_estimator", **kwargs)
