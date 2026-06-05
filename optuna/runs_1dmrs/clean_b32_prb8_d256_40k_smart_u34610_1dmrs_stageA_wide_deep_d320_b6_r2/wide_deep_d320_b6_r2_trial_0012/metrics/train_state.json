@@ -1,23 +1,23 @@
 {
-  "best_val": 0.0315914004992616,
+  "best_val": 0.028590440429979935,
   "best_weights_path": "/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/optuna/runs_1dmrs/clean_b32_prb8_d256_40k_smart_u34610_1dmrs_stageA_wide_deep_d320_b6_r2/wide_deep_d320_b6_r2_trial_0012/checkpoints/best.weights.h5",
   "checkpoint_metrics": {
-    "last_loss": -2.2823994159698486,
-    "last_nmse_ls": 0.13084709644317627,
-    "last_nmse_prop": 0.039608750492334366
+    "last_loss": -2.392848253250122,
+    "last_nmse_ls": 0.14739097654819489,
+    "last_nmse_prop": 0.03535996377468109
   },
   "last_metrics": {
-    "ebno_db": -2.702249526977539,
-    "learning_rate": 0.0003116735606454313,
-    "loss": -2.2823994159698486,
-    "loss_nll": -2.2904553413391113,
-    "nmse_ls": 0.13084709644317627,
-    "nmse_prop": 0.039608750492334366,
-    "num_users": 4,
-    "step": 2000,
-    "step_elapsed_s": 225.5617471942678,
-    "steps_per_s": 1.2063869855699227,
-    "training_elapsed_s": 1657.8428182024509,
+    "ebno_db": -3.3554575443267822,
+    "learning_rate": 8.868900476954877e-05,
+    "loss": -2.392848253250122,
+    "loss_nll": -2.4000399112701416,
+    "nmse_ls": 0.14739097654819489,
+    "nmse_prop": 0.03535996377468109,
+    "num_users": 3,
+    "step": 4000,
+    "step_elapsed_s": 247.88809357583523,
+    "steps_per_s": 1.215481028385813,
+    "training_elapsed_s": 3290.8781845094636,
     "val_batch_size": 32,
     "val_ebno_db": "multi",
     "val_ebno_db_values": [
@@ -28,32 +28,32 @@
       4.0
     ],
     "val_microbatch_size": 16,
-    "val_nmse_ls": 0.0962963032652624,
-    "val_nmse_prop": 0.0315914004992616,
+    "val_nmse_ls": 0.09687701752409339,
+    "val_nmse_prop": 0.028590440429979935,
     "val_snr_hist": {
-      "-2.0": 22,
-      "-4.0": 20,
-      "0.0": 20,
-      "2.0": 23,
-      "4.0": 11
+      "-2.0": 21,
+      "-4.0": 21,
+      "0.0": 22,
+      "2.0": 17,
+      "4.0": 15
     },
     "val_user_count_hist": {
-      "1": 7,
-      "2": 18,
+      "1": 5,
+      "2": 16,
       "3": 25,
-      "4": 46
+      "4": 50
     }
   },
-  "latest_step": 2000,
-  "latest_training_state_checkpoint": "/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/optuna/runs_1dmrs/clean_b32_prb8_d256_40k_smart_u34610_1dmrs_stageA_wide_deep_d320_b6_r2/wide_deep_d320_b6_r2_trial_0012/checkpoints/training_state/ckpt-2000",
+  "latest_step": 4000,
+  "latest_training_state_checkpoint": "/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/optuna/runs_1dmrs/clean_b32_prb8_d256_40k_smart_u34610_1dmrs_stageA_wide_deep_d320_b6_r2/wide_deep_d320_b6_r2_trial_0012/checkpoints/training_state/ckpt-4000",
   "resume_enabled": true,
-  "save_reason": "periodic",
+  "save_reason": "final",
   "total_steps": 4000,
-  "training_complete": false,
+  "training_complete": true,
   "training_parameters": {
     "batch_size_eval": 32,
     "batch_size_train": 32,
-    "current_learning_rate": 0.0003116735606454313,
+    "current_learning_rate": 8.868900476954877e-05,
     "eval_every": 1000,
     "evaluation_seed": 1007,
     "grad_clip_norm": 0.5,

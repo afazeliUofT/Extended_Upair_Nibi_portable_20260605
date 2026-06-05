@@ -1,20 +1,20 @@
 {
   "best_params": {
-    "dropout": 0.008437454679329139,
-    "grad_clip_norm": 1.0,
-    "learning_rate": 0.001039466109174551,
+    "dropout": 7.216382532542441e-05,
+    "grad_clip_norm": 0.5,
+    "learning_rate": 0.0008722091201558823,
     "learning_rate_decay_fraction": 1.0,
     "learning_rate_final_fraction": 0.05,
     "learning_rate_polynomial_power": 1.0,
     "learning_rate_schedule": "constant",
-    "nmse_loss_weight": 0.2049101298322125,
-    "residual_scale": 0.6691789956531782,
-    "weight_decay": 1.764293141321319e-06
+    "nmse_loss_weight": 0.36833494384383136,
+    "residual_scale": 0.6586559871326637,
+    "weight_decay": 2.363899423796963e-06
   },
-  "best_value": -1.5791672711914533,
-  "completed_trials": 12,
+  "best_value": -1.5899653699591316,
+  "completed_trials": 14,
   "failed_trials": 0,
-  "finished_trials": 18,
+  "finished_trials": 20,
   "fixed_constraints": {
     "clean_case": true,
     "dmrs_length": 1,

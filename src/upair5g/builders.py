@@ -592,3 +592,95 @@ def extract_pilot_mask_per_stream(resource_grid: Any) -> tf.Tensor:
 def extract_pilot_mask(resource_grid: Any) -> tf.Tensor:
     mask = extract_pilot_mask_per_stream(resource_grid)
     return tf.reduce_max(mask, axis=-1, keepdims=True)
+
+
+def _grid_mask_to_tf_time_freq(
+    grid: Any,
+    *,
+    target_time: int,
+    target_freq: int,
+    context: str,
+) -> tf.Tensor:
+    # Convert a Sionna DMRS grid into a binary [T,F] nonzero-RE mask.
+    # In Sionna 1.2.1, PUSCHConfig.dmrs_grid is commonly [num_layers, F, T].
+    # Some objects may expose [num_layers, T, F]. We infer orientation from the
+    # resource-grid shape and reduce all leading singleton/layer axes.
+    mask = tf.cast(tf.not_equal(tf.abs(tf.convert_to_tensor(grid)), 0), tf.float32)
+    if mask.shape.rank is None or mask.shape.rank < 2:
+        raise ValueError(f"{context}: expected DMRS grid rank >=2, got {mask.shape.rank}.")
+    if mask.shape.rank > 2:
+        reduce_axes = list(range(mask.shape.rank - 2))
+        mask = tf.reduce_max(mask, axis=reduce_axes)
+    static = mask.shape.as_list()
+    if len(static) != 2:
+        raise ValueError(f"{context}: expected reduced DMRS grid rank 2, got shape {mask.shape}.")
+    a, b = static
+    if a == target_time and b == target_freq:
+        return tf.cast(mask, tf.float32)
+    if a == target_freq and b == target_time:
+        return tf.cast(tf.transpose(mask, [1, 0]), tf.float32)
+
+    shape = tf.shape(mask)
+    is_ft = tf.logical_and(tf.equal(shape[0], target_freq), tf.equal(shape[1], target_time))
+    is_tf = tf.logical_and(tf.equal(shape[0], target_time), tf.equal(shape[1], target_freq))
+    def as_ft() -> tf.Tensor:
+        return tf.transpose(mask, [1, 0])
+    def as_tf() -> tf.Tensor:
+        return mask
+    out = tf.cond(is_ft, as_ft, as_tf)
+    with tf.control_dependencies([
+        tf.debugging.assert_equal(
+            tf.logical_or(is_ft, is_tf),
+            True,
+            message=f"{context}: DMRS grid shape does not match resource-grid [T,F]=[{target_time},{target_freq}].",
+        )
+    ]):
+        return tf.cast(tf.identity(out), tf.float32)
+
+
+def _dmrs_grid_from_pusch_config(pusch_config: Any) -> Any | None:
+    value = first_present_attr(pusch_config, ["dmrs_grid", "_dmrs_grid"], None)
+    if value is not None:
+        return value
+    dmrs = getattr(pusch_config, "dmrs", None)
+    if dmrs is not None:
+        value = first_present_attr(dmrs, ["dmrs_grid", "_dmrs_grid", "pilot_grid", "_pilot_grid"], None)
+        if value is not None:
+            return value
+    return None
+
+
+def extract_true_dmrs_mask_per_stream(tx: Any, resource_grid: Any | None = None) -> tf.Tensor:
+    # Return TRUE nonzero-DMRS RE masks as [T,F,U] for active users/streams.
+    # This differs from resource_grid.pilot_pattern.mask, which can mark all
+    # no-data REs in a DMRS OFDM symbol when num_cdm_groups_without_data reserves
+    # additional subcarriers.
+    if resource_grid is None:
+        resource_grid = get_resource_grid(tx)
+
+    fallback = extract_pilot_mask_per_stream(resource_grid)
+    target_time = int(fallback.shape[0] or tf.shape(fallback)[0].numpy())
+    target_freq = int(fallback.shape[1] or tf.shape(fallback)[1].numpy())
+
+    pusch_configs = list(first_present_attr(tx, ["_upair_pusch_configs"], []) or [])
+    if not pusch_configs:
+        return fallback
+
+    masks: list[tf.Tensor] = []
+    for idx, pusch_config in enumerate(pusch_configs):
+        grid = _dmrs_grid_from_pusch_config(pusch_config)
+        if grid is None:
+            stream_count = int(fallback.shape[-1] or tf.shape(fallback)[-1].numpy())
+            stream_idx = min(idx, max(stream_count - 1, 0))
+            masks.append(tf.cast(fallback[..., stream_idx], tf.float32))
+            continue
+        masks.append(
+            _grid_mask_to_tf_time_freq(
+                grid,
+                target_time=target_time,
+                target_freq=target_freq,
+                context=f"PUSCHConfig[{idx}].dmrs_grid",
+            )
+        )
+
+    return tf.stack(masks, axis=-1)

@@ -1427,3 +1427,29 @@ I0000 00:00:1780658010.116039 2173053 device_compiler.h:186] Compiled cluster us
 [TRAIN] step=00100 loss=-1.45814 nmse_prop=0.08358 nmse_ls=0.09350 lr=2.670e-04 step_time=0.574s steps_per_s=1.159 gpu_mem=0.20GiB peak=9.03GiB
 [TRAIN] step=00200 loss=-1.38224 nmse_prop=0.09011 nmse_ls=0.11425 lr=2.663e-04 step_time=0.574s steps_per_s=1.491 gpu_mem=0.20GiB peak=9.03GiB
 [TRAIN] step=00300 loss=-1.69476 nmse_prop=0.06726 nmse_ls=0.09150 lr=2.651e-04 step_time=0.571s steps_per_s=1.636 gpu_mem=0.20GiB peak=9.03GiB
+[TRAIN] step=00400 loss=-1.72294 nmse_prop=0.06442 nmse_ls=0.09519 lr=2.636e-04 step_time=0.564s steps_per_s=1.716 gpu_mem=0.20GiB peak=9.03GiB
+[TRAIN] step=00500 loss=-1.65422 nmse_prop=0.07073 nmse_ls=0.13238 lr=2.616e-04 step_time=0.462s steps_per_s=1.767 gpu_mem=0.19GiB peak=9.05GiB
+[TRAIN] step=00600 loss=-2.47948 nmse_prop=0.03165 nmse_ls=0.04485 lr=2.591e-04 step_time=0.453s steps_per_s=1.816 gpu_mem=0.20GiB peak=9.05GiB
+[TRAIN] step=00700 loss=-2.17549 nmse_prop=0.04247 nmse_ls=0.08073 lr=2.562e-04 step_time=0.459s steps_per_s=1.848 gpu_mem=0.20GiB peak=9.05GiB
+[TRAIN] step=00800 loss=-2.49516 nmse_prop=0.03162 nmse_ls=0.05253 lr=2.530e-04 step_time=0.453s steps_per_s=1.869 gpu_mem=0.20GiB peak=9.05GiB
+[TRAIN] step=00900 loss=-2.69640 nmse_prop=0.02621 nmse_ls=0.03673 lr=2.493e-04 step_time=0.559s steps_per_s=1.888 gpu_mem=0.20GiB peak=9.05GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=1000 val_nmse=0.041445
+[TRAIN] step=01000 loss=-2.13595 nmse_prop=0.04544 nmse_ls=0.11651 lr=2.452e-04 step_time=161.522s steps_per_s=1.453 gpu_mem=0.21GiB peak=9.05GiB
+[TRAIN] saved resumable state at step=1000 reason=periodic: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/optuna/runs_1dmrs/clean_b32_prb8_d256_40k_smart_u34610_1dmrs_stageA_wide_d320_b4_r2/wide_d320_b4_r2_trial_0019/checkpoints/training_state/ckpt-1000
+[OPTUNA-WORKER] trial=19 report step=1000 value=-1.4497826
+[OPTUNA-WORKER] trial=19 pruned by percentile at step=1000 value=-1.4497826
+[OPTUNA-WORKER] pruned trial=19: pruned at step=1000 value=-1.4497826
+[OPTUNA-ISO] pruned trial=19: pruned at step=1000 value=-1.4497826
+[OPTUNA] exported best params: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/optuna/clean_b32_prb8_d256_40k_smart_u34610_1dmrs_stageA_wide_d320_b4_r2_best_params.json
+[OPTUNA-ISO] study: clean_b32_prb8_d256_40k_smart_u34610_1dmrs_stageA_wide_d320_b4_r2
+[OPTUNA-ISO] stage: A
+[OPTUNA-ISO] trials: 20
+[OPTUNA-ISO] completed_trials: 11
+[OPTUNA-ISO] pruned_trials: 9
+[OPTUNA-ISO] finished_trials: 20
+[OPTUNA-ISO] failed_trials: 0
+[OPTUNA-ISO] best_value: -1.6490093224920015
+[OPTUNA-ISO] best_params: {'learning_rate_schedule': 'polynomial_decay', 'learning_rate': 0.001052210248410708, 'learning_rate_decay_fraction': 1.25, 'learning_rate_final_fraction': 0.0734499212024605, 'learning_rate_polynomial_power': 1.955717493414353, 'weight_decay': 2.744967790801909e-05, 'nmse_loss_weight': 0.1325395398075002, 'grad_clip_norm': 0.5, 'dropout': 0.028024223189470912, 'residual_scale': 0.41889904390998767, 'batch_size_train': 32, 'batch_size_eval': 32}
+[OPTUNA] exported best params: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/optuna/clean_b32_prb8_d256_40k_smart_u34610_1dmrs_stageA_wide_d320_b4_r2_best_params.json

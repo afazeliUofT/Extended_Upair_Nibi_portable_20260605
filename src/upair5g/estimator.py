@@ -173,7 +173,10 @@ class UPAIRChannelEstimator(tf.keras.Model):
             name="err_head",
         )
 
-        self.pilot_mask = tf.cast(extract_pilot_mask_per_stream(resource_grid), tf.float32)
+        self.pilot_mask = tf.cast(
+            tf.convert_to_tensor(pilot_mask) if pilot_mask is not None else extract_pilot_mask_per_stream(resource_grid),
+            tf.float32,
+        )
         self.input_channels = input_channels
 
     def _finalize_build_after_direct_forward(self) -> None:

@@ -1068,3 +1068,403 @@ WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objec
 [TRAIN] step=02200 loss=-2.67011 nmse_prop=0.02789 nmse_ls=0.07570 lr=2.802e-04 step_time=0.622s steps_per_s=1.237 gpu_mem=0.25GiB peak=13.30GiB
 [TRAIN] step=02300 loss=-2.70414 nmse_prop=0.02745 nmse_ls=0.07595 lr=2.653e-04 step_time=0.528s steps_per_s=1.253 gpu_mem=0.25GiB peak=13.30GiB
 [TRAIN] step=02400 loss=-2.40824 nmse_prop=0.03555 nmse_ls=0.11287 lr=2.508e-04 step_time=0.629s steps_per_s=1.270 gpu_mem=0.25GiB peak=13.30GiB
+[TRAIN] step=02500 loss=-3.15987 nmse_prop=0.01907 nmse_ls=0.03809 lr=2.368e-04 step_time=0.520s steps_per_s=1.284 gpu_mem=0.25GiB peak=13.30GiB
+[TRAIN] step=02600 loss=-2.24728 nmse_prop=0.04079 nmse_ls=0.15038 lr=2.234e-04 step_time=0.636s steps_per_s=1.297 gpu_mem=0.25GiB peak=13.30GiB
+[TRAIN] step=02700 loss=-3.19406 nmse_prop=0.01852 nmse_ls=0.03655 lr=2.104e-04 step_time=0.526s steps_per_s=1.310 gpu_mem=0.25GiB peak=13.30GiB
+[TRAIN] step=02800 loss=-2.34978 nmse_prop=0.03768 nmse_ls=0.14188 lr=1.979e-04 step_time=0.413s steps_per_s=1.322 gpu_mem=0.25GiB peak=13.30GiB
+[TRAIN] step=02900 loss=-2.28464 nmse_prop=0.03964 nmse_ls=0.15097 lr=1.860e-04 step_time=0.527s steps_per_s=1.334 gpu_mem=0.25GiB peak=13.30GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=3000 val_nmse=0.0298012
+[TRAIN] step=03000 loss=-2.86950 nmse_prop=0.02396 nmse_ls=0.05860 lr=1.745e-04 step_time=245.684s steps_per_s=1.211 gpu_mem=0.25GiB peak=13.30GiB
+[TRAIN] saved resumable state at step=3000 reason=periodic: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/optuna/runs_1dmrs/clean_b32_prb8_d256_40k_smart_u34610_1dmrs_stageA_wide_deep_d320_b6_r2/wide_deep_d320_b6_r2_trial_0012/checkpoints/training_state/ckpt-3000
+[OPTUNA-WORKER] trial=12 report step=3000 value=-1.6129722
+[TRAIN] step=03100 loss=-2.16053 nmse_prop=0.04420 nmse_ls=0.18603 lr=1.636e-04 step_time=0.530s steps_per_s=1.219 gpu_mem=0.25GiB peak=13.30GiB
+[TRAIN] step=03200 loss=-2.13979 nmse_prop=0.04568 nmse_ls=0.17032 lr=1.532e-04 step_time=0.631s steps_per_s=1.232 gpu_mem=0.25GiB peak=13.30GiB
+[TRAIN] step=03300 loss=-2.75386 nmse_prop=0.02609 nmse_ls=0.07311 lr=1.433e-04 step_time=0.636s steps_per_s=1.244 gpu_mem=0.25GiB peak=13.30GiB
+[TRAIN] step=03400 loss=-2.31557 nmse_prop=0.03861 nmse_ls=0.14059 lr=1.339e-04 step_time=0.618s steps_per_s=1.256 gpu_mem=0.25GiB peak=13.30GiB
+[TRAIN] step=03500 loss=-2.97622 nmse_prop=0.02150 nmse_ls=0.05329 lr=1.251e-04 step_time=0.602s steps_per_s=1.267 gpu_mem=0.25GiB peak=13.30GiB
+[TRAIN] step=03600 loss=-2.61411 nmse_prop=0.02975 nmse_ls=0.08926 lr=1.167e-04 step_time=0.628s steps_per_s=1.278 gpu_mem=0.25GiB peak=13.30GiB
+[TRAIN] step=03700 loss=-2.15515 nmse_prop=0.04474 nmse_ls=0.17834 lr=1.089e-04 step_time=0.637s steps_per_s=1.288 gpu_mem=0.25GiB peak=13.30GiB
+[TRAIN] step=03800 loss=-3.05846 nmse_prop=0.02023 nmse_ls=0.04747 lr=1.016e-04 step_time=0.607s steps_per_s=1.297 gpu_mem=0.25GiB peak=13.30GiB
+[TRAIN] step=03900 loss=-2.48641 nmse_prop=0.03296 nmse_ls=0.12786 lr=9.489e-05 step_time=0.320s steps_per_s=1.306 gpu_mem=0.25GiB peak=13.30GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=4000 val_nmse=0.0285904
+[TRAIN] step=04000 loss=-2.39285 nmse_prop=0.03536 nmse_ls=0.14739 lr=8.869e-05 step_time=247.888s steps_per_s=1.215 gpu_mem=0.25GiB peak=13.30GiB
+[TRAIN] saved resumable state at step=4000 reason=periodic: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/optuna/runs_1dmrs/clean_b32_prb8_d256_40k_smart_u34610_1dmrs_stageA_wide_deep_d320_b6_r2/wide_deep_d320_b6_r2_trial_0012/checkpoints/training_state/ckpt-4000
+[OPTUNA-WORKER] trial=12 report step=4000 value=-1.6392421
+[TRAIN] saved resumable state at step=4000 reason=final: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/optuna/runs_1dmrs/clean_b32_prb8_d256_40k_smart_u34610_1dmrs_stageA_wide_deep_d320_b6_r2/wide_deep_d320_b6_r2_trial_0012/checkpoints/training_state/ckpt-4000
+[OPTUNA-WORKER] complete trial=12 value=-1.6392421
+[OPTUNA-ISO] completed trial=12 value=-1.6392421
+[OPTUNA] exported best params: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/optuna/clean_b32_prb8_d256_40k_smart_u34610_1dmrs_stageA_wide_deep_d320_b6_r2_best_params.json
+[OPTUNA-ISO] starting stage=A trial=13 trial_id=14 params={'batch_size_train': 32, 'batch_size_eval': 32, 'learning_rate_schedule': 'polynomial_decay', 'learning_rate': 0.0010630433260131605, 'learning_rate_decay_fraction': 1.25, 'learning_rate_final_fraction': 0.13274173302885234, 'learning_rate_polynomial_power': 0.7610850675790604, 'weight_decay': 0.00010258339335491634, 'nmse_loss_weight': 0.1294932235864866, 'grad_clip_norm': 0.5, 'dropout': 0.039885932249271366, 'residual_scale': 0.38775645808100423}
+[OPTUNA-ISO] launching worker trial=13 pid=<pending> params={'batch_size_train': 32, 'batch_size_eval': 32, 'learning_rate_schedule': 'polynomial_decay', 'learning_rate': 0.0010630433260131605, 'learning_rate_decay_fraction': 1.25, 'learning_rate_final_fraction': 0.13274173302885234, 'learning_rate_polynomial_power': 0.7610850675790604, 'weight_decay': 0.00010258339335491634, 'nmse_loss_weight': 0.1294932235864866, 'grad_clip_norm': 0.5, 'dropout': 0.039885932249271366, 'residual_scale': 0.38775645808100423}
+2026-06-05 07:41:34.937367: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-06-05 07:41:36.178083: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-06-05 07:41:36.178140: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-06-05 07:41:36.179204: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-06-05 07:41:36.184350: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[OPTUNA-WORKER] start trial=13 pid=3359236 TF_GPU_ALLOCATOR=<unset/default> TF_FORCE_GPU_ALLOW_GROWTH=true
+2026-06-05 07:41:56.666346: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2348] TensorFlow was not built with CUDA kernel binaries compatible with compute capability 9.0. CUDA kernels will be jit-compiled from PTX, which could take 30 minutes or longer.
+[OPTUNA-WORKER] visible_gpus=[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+2026-06-05 07:42:08.428595: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2348] TensorFlow was not built with CUDA kernel binaries compatible with compute capability 9.0. CUDA kernels will be jit-compiled from PTX, which could take 30 minutes or longer.
+2026-06-05 07:42:08.576762: W tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:47] Overriding orig_value setting because the TF_FORCE_GPU_ALLOW_GROWTH environment variable is set. Original config value was 0.
+2026-06-05 07:42:08.577607: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1929] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 78752 MB memory:  -> device: 0, name: NVIDIA H100 80GB HBM3, pci bus id: 0000:cb:00.0, compute capability: 9.0
+2026-06-05 07:42:10.818408: I external/local_tsl/tsl/platform/default/subprocess.cc:304] Start cannot spawn child process: No such file or directory
+[TRAIN] optimizer lr_schedule=polynomial_decay learning_rate=0.00106304 weight_decay=0.000102583
+[TRAIN] seeds active_seed=7 training_seed=7 evaluation_seed=1007
+[TRAIN] starting from scratch
+2026-06-05 07:42:57.660659: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:961] layout failed: INVALID_ARGUMENT: Size of values 0 does not match size of permutation 4 @ fanin shape inaxial_block_0/dropout/dropout_2/SelectV2-2-TransposeNHWCToNCHW-LayoutOptimizer
+2026-06-05 07:43:04.935370: I external/local_xla/xla/service/service.cc:168] XLA service 0x154b38939140 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2026-06-05 07:43:04.935422: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): NVIDIA H100 80GB HBM3, Compute Capability 9.0
+2026-06-05 07:43:04.939178: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+2026-06-05 07:43:05.123073: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:454] Loaded cuDNN version 8905
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780659786.210583 3359818 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+[TRAIN] step=00001 loss=-0.87855 nmse_prop=0.14838 nmse_ls=0.14838 lr=1.063e-03 step_time=28.825s steps_per_s=0.035 gpu_mem=0.17GiB peak=13.10GiB
+[TRAIN] step=00100 loss=-1.54195 nmse_prop=0.07751 nmse_ls=0.09263 lr=1.049e-03 step_time=0.636s steps_per_s=0.908 gpu_mem=0.23GiB peak=13.32GiB
+[TRAIN] step=00200 loss=-1.47468 nmse_prop=0.07996 nmse_ls=0.11403 lr=1.035e-03 step_time=0.636s steps_per_s=1.216 gpu_mem=0.23GiB peak=13.32GiB
+[TRAIN] step=00300 loss=-1.81623 nmse_prop=0.06008 nmse_ls=0.09249 lr=1.021e-03 step_time=0.605s steps_per_s=1.371 gpu_mem=0.23GiB peak=13.32GiB
+[TRAIN] step=00400 loss=-1.89887 nmse_prop=0.05535 nmse_ls=0.09556 lr=1.006e-03 step_time=0.635s steps_per_s=1.455 gpu_mem=0.23GiB peak=13.32GiB
+[TRAIN] step=00500 loss=-1.85029 nmse_prop=0.05822 nmse_ls=0.13207 lr=9.921e-04 step_time=0.527s steps_per_s=1.508 gpu_mem=0.23GiB peak=13.35GiB
+[TRAIN] step=00600 loss=-2.62495 nmse_prop=0.02752 nmse_ls=0.04352 lr=9.777e-04 step_time=0.529s steps_per_s=1.554 gpu_mem=0.23GiB peak=13.35GiB
+[TRAIN] step=00700 loss=-2.29498 nmse_prop=0.03883 nmse_ls=0.08223 lr=9.632e-04 step_time=0.520s steps_per_s=1.585 gpu_mem=0.23GiB peak=13.35GiB
+[TRAIN] step=00800 loss=-2.66790 nmse_prop=0.02787 nmse_ls=0.05178 lr=9.486e-04 step_time=0.519s steps_per_s=1.605 gpu_mem=0.23GiB peak=13.35GiB
+[TRAIN] step=00900 loss=-2.82918 nmse_prop=0.02430 nmse_ls=0.03769 lr=9.339e-04 step_time=0.626s steps_per_s=1.624 gpu_mem=0.23GiB peak=13.35GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=1000 val_nmse=0.0355128
+[TRAIN] step=01000 loss=-2.25073 nmse_prop=0.04043 nmse_ls=0.11656 lr=9.192e-04 step_time=242.234s steps_per_s=1.173 gpu_mem=0.25GiB peak=13.35GiB
+[TRAIN] saved resumable state at step=1000 reason=periodic: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/optuna/runs_1dmrs/clean_b32_prb8_d256_40k_smart_u34610_1dmrs_stageA_wide_deep_d320_b6_r2/wide_deep_d320_b6_r2_trial_0013/checkpoints/training_state/ckpt-1000
+[OPTUNA-WORKER] trial=13 report step=1000 value=-1.5298502
+[TRAIN] step=01100 loss=-2.81789 nmse_prop=0.02485 nmse_ls=0.04265 lr=9.043e-04 step_time=0.624s steps_per_s=1.206 gpu_mem=0.25GiB peak=13.35GiB
+[TRAIN] step=01200 loss=-2.06639 nmse_prop=0.04887 nmse_ls=0.13163 lr=8.894e-04 step_time=0.634s steps_per_s=1.238 gpu_mem=0.25GiB peak=13.35GiB
+[TRAIN] step=01300 loss=-2.98371 nmse_prop=0.02191 nmse_ls=0.03922 lr=8.744e-04 step_time=0.419s steps_per_s=1.267 gpu_mem=0.25GiB peak=13.35GiB
+[TRAIN] step=01400 loss=-2.30341 nmse_prop=0.03926 nmse_ls=0.11443 lr=8.593e-04 step_time=0.524s steps_per_s=1.293 gpu_mem=0.25GiB peak=13.35GiB
+[TRAIN] step=01500 loss=-2.90816 nmse_prop=0.02310 nmse_ls=0.04785 lr=8.440e-04 step_time=0.522s steps_per_s=1.317 gpu_mem=0.25GiB peak=13.35GiB
+[TRAIN] step=01600 loss=-1.80588 nmse_prop=0.06236 nmse_ls=0.19654 lr=8.287e-04 step_time=0.631s steps_per_s=1.340 gpu_mem=0.25GiB peak=13.35GiB
+[TRAIN] step=01700 loss=-2.42852 nmse_prop=0.03395 nmse_ls=0.10947 lr=8.132e-04 step_time=0.520s steps_per_s=1.360 gpu_mem=0.25GiB peak=13.35GiB
+[TRAIN] step=01800 loss=-2.09236 nmse_prop=0.04704 nmse_ls=0.14441 lr=7.977e-04 step_time=0.635s steps_per_s=1.376 gpu_mem=0.25GiB peak=13.35GiB
+[TRAIN] step=01900 loss=-2.79103 nmse_prop=0.02453 nmse_ls=0.05645 lr=7.820e-04 step_time=0.530s steps_per_s=1.392 gpu_mem=0.25GiB peak=13.35GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=2000 val_nmse=0.0322005
+[TRAIN] step=02000 loss=-2.23496 nmse_prop=0.04137 nmse_ls=0.13089 lr=7.662e-04 step_time=241.596s steps_per_s=1.203 gpu_mem=0.25GiB peak=13.35GiB
+[TRAIN] saved resumable state at step=2000 reason=periodic: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/optuna/runs_1dmrs/clean_b32_prb8_d256_40k_smart_u34610_1dmrs_stageA_wide_deep_d320_b6_r2/wide_deep_d320_b6_r2_trial_0013/checkpoints/training_state/ckpt-2000
+[OPTUNA-WORKER] trial=13 report step=2000 value=-1.558649
+[OPTUNA-WORKER] trial=13 pruned by percentile at step=2000 value=-1.558649
+[OPTUNA-WORKER] pruned trial=13: pruned at step=2000 value=-1.558649
+[OPTUNA-ISO] pruned trial=13: pruned at step=2000 value=-1.558649
+[OPTUNA] exported best params: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/optuna/clean_b32_prb8_d256_40k_smart_u34610_1dmrs_stageA_wide_deep_d320_b6_r2_best_params.json
+[OPTUNA-ISO] starting stage=A trial=14 trial_id=15 params={'batch_size_train': 32, 'batch_size_eval': 32, 'learning_rate_schedule': 'cosine_decay', 'learning_rate': 0.001188756064609889, 'learning_rate_decay_fraction': 1.25, 'learning_rate_final_fraction': 0.05056886718349514, 'learning_rate_polynomial_power': 1.0, 'weight_decay': 2.2972244313091374e-05, 'nmse_loss_weight': 0.3521252362675875, 'grad_clip_norm': 0.5, 'dropout': 0.013010592875061382, 'residual_scale': 0.6700700181833732}
+[OPTUNA-ISO] launching worker trial=14 pid=<pending> params={'batch_size_train': 32, 'batch_size_eval': 32, 'learning_rate_schedule': 'cosine_decay', 'learning_rate': 0.001188756064609889, 'learning_rate_decay_fraction': 1.25, 'learning_rate_final_fraction': 0.05056886718349514, 'learning_rate_polynomial_power': 1.0, 'weight_decay': 2.2972244313091374e-05, 'nmse_loss_weight': 0.3521252362675875, 'grad_clip_norm': 0.5, 'dropout': 0.013010592875061382, 'residual_scale': 0.6700700181833732}
+2026-06-05 08:11:07.848596: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-06-05 08:11:07.882465: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-06-05 08:11:07.882511: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-06-05 08:11:07.883562: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-06-05 08:11:07.888615: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[OPTUNA-WORKER] start trial=14 pid=3378792 TF_GPU_ALLOCATOR=<unset/default> TF_FORCE_GPU_ALLOW_GROWTH=true
+2026-06-05 08:11:22.862319: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2348] TensorFlow was not built with CUDA kernel binaries compatible with compute capability 9.0. CUDA kernels will be jit-compiled from PTX, which could take 30 minutes or longer.
+[OPTUNA-WORKER] visible_gpus=[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+2026-06-05 08:11:31.477800: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2348] TensorFlow was not built with CUDA kernel binaries compatible with compute capability 9.0. CUDA kernels will be jit-compiled from PTX, which could take 30 minutes or longer.
+2026-06-05 08:11:31.630926: W tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:47] Overriding orig_value setting because the TF_FORCE_GPU_ALLOW_GROWTH environment variable is set. Original config value was 0.
+2026-06-05 08:11:31.631775: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1929] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 78752 MB memory:  -> device: 0, name: NVIDIA H100 80GB HBM3, pci bus id: 0000:cb:00.0, compute capability: 9.0
+2026-06-05 08:11:32.351619: I external/local_tsl/tsl/platform/default/subprocess.cc:304] Start cannot spawn child process: No such file or directory
+[TRAIN] optimizer lr_schedule=cosine_decay learning_rate=0.00118876 weight_decay=2.29722e-05
+[TRAIN] seeds active_seed=7 training_seed=7 evaluation_seed=1007
+[TRAIN] starting from scratch
+2026-06-05 08:12:12.218524: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:961] layout failed: INVALID_ARGUMENT: Size of values 0 does not match size of permutation 4 @ fanin shape inaxial_block_0/dropout/dropout_2/SelectV2-2-TransposeNHWCToNCHW-LayoutOptimizer
+2026-06-05 08:12:15.257662: I external/local_xla/xla/service/service.cc:168] XLA service 0x14860a7d22d0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2026-06-05 08:12:15.257727: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): NVIDIA H100 80GB HBM3, Compute Capability 9.0
+2026-06-05 08:12:15.261598: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+2026-06-05 08:12:15.391763: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:454] Loaded cuDNN version 8905
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780661535.558987 3378937 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+[TRAIN] step=00001 loss=-0.84589 nmse_prop=0.14832 nmse_ls=0.14832 lr=1.189e-03 step_time=23.246s steps_per_s=0.043 gpu_mem=0.16GiB peak=13.08GiB
+[TRAIN] step=00100 loss=-1.48845 nmse_prop=0.08059 nmse_ls=0.09560 lr=1.188e-03 step_time=0.635s steps_per_s=0.970 gpu_mem=0.24GiB peak=13.32GiB
+[TRAIN] step=00200 loss=-1.40828 nmse_prop=0.08281 nmse_ls=0.11634 lr=1.184e-03 step_time=0.626s steps_per_s=1.269 gpu_mem=0.24GiB peak=13.32GiB
+[TRAIN] step=00300 loss=-1.77971 nmse_prop=0.06110 nmse_ls=0.09215 lr=1.179e-03 step_time=0.633s steps_per_s=1.406 gpu_mem=0.24GiB peak=13.32GiB
+[TRAIN] step=00400 loss=-1.88650 nmse_prop=0.05386 nmse_ls=0.09375 lr=1.171e-03 step_time=0.625s steps_per_s=1.483 gpu_mem=0.23GiB peak=13.32GiB
+[TRAIN] step=00500 loss=-1.76800 nmse_prop=0.06239 nmse_ls=0.13429 lr=1.161e-03 step_time=0.511s steps_per_s=1.532 gpu_mem=0.24GiB peak=13.32GiB
+[TRAIN] step=00600 loss=-2.57067 nmse_prop=0.02852 nmse_ls=0.04399 lr=1.149e-03 step_time=0.525s steps_per_s=1.576 gpu_mem=0.24GiB peak=13.32GiB
+[TRAIN] step=00700 loss=-2.28839 nmse_prop=0.03937 nmse_ls=0.08382 lr=1.135e-03 step_time=0.525s steps_per_s=1.605 gpu_mem=0.24GiB peak=13.32GiB
+[TRAIN] step=00800 loss=-2.67406 nmse_prop=0.02774 nmse_ls=0.05298 lr=1.119e-03 step_time=0.520s steps_per_s=1.625 gpu_mem=0.24GiB peak=13.32GiB
+[TRAIN] step=00900 loss=-2.90968 nmse_prop=0.02216 nmse_ls=0.03559 lr=1.101e-03 step_time=0.633s steps_per_s=1.642 gpu_mem=0.24GiB peak=13.32GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=1000 val_nmse=0.0357098
+[TRAIN] step=01000 loss=-2.17492 nmse_prop=0.04362 nmse_ls=0.11836 lr=1.081e-03 step_time=243.379s steps_per_s=1.179 gpu_mem=0.25GiB peak=13.32GiB
+[TRAIN] saved resumable state at step=1000 reason=periodic: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/optuna/runs_1dmrs/clean_b32_prb8_d256_40k_smart_u34610_1dmrs_stageA_wide_deep_d320_b6_r2/wide_deep_d320_b6_r2_trial_0014/checkpoints/training_state/ckpt-1000
+[OPTUNA-WORKER] trial=14 report step=1000 value=-1.5271302
+[TRAIN] step=01100 loss=-2.82377 nmse_prop=0.02448 nmse_ls=0.04237 lr=1.059e-03 step_time=0.610s steps_per_s=1.209 gpu_mem=0.25GiB peak=13.32GiB
+[TRAIN] step=01200 loss=-2.05297 nmse_prop=0.04903 nmse_ls=0.13181 lr=1.036e-03 step_time=0.624s steps_per_s=1.242 gpu_mem=0.25GiB peak=13.32GiB
+[TRAIN] step=01300 loss=-3.12062 nmse_prop=0.01871 nmse_ls=0.03635 lr=1.011e-03 step_time=0.414s steps_per_s=1.270 gpu_mem=0.25GiB peak=13.32GiB
+[TRAIN] step=01400 loss=-2.35523 nmse_prop=0.03633 nmse_ls=0.11200 lr=9.844e-04 step_time=0.525s steps_per_s=1.296 gpu_mem=0.25GiB peak=13.32GiB
+[TRAIN] step=01500 loss=-2.93022 nmse_prop=0.02207 nmse_ls=0.04641 lr=9.564e-04 step_time=0.517s steps_per_s=1.320 gpu_mem=0.25GiB peak=13.32GiB
+[TRAIN] step=01600 loss=-1.83802 nmse_prop=0.05959 nmse_ls=0.19482 lr=9.271e-04 step_time=0.626s steps_per_s=1.343 gpu_mem=0.25GiB peak=13.32GiB
+[TRAIN] step=01700 loss=-2.35069 nmse_prop=0.03648 nmse_ls=0.11284 lr=8.966e-04 step_time=0.529s steps_per_s=1.363 gpu_mem=0.25GiB peak=13.32GiB
+[TRAIN] step=01800 loss=-2.11984 nmse_prop=0.04548 nmse_ls=0.14450 lr=8.650e-04 step_time=0.629s steps_per_s=1.379 gpu_mem=0.25GiB peak=13.32GiB
+[TRAIN] step=01900 loss=-2.82061 nmse_prop=0.02449 nmse_ls=0.05744 lr=8.325e-04 step_time=0.526s steps_per_s=1.395 gpu_mem=0.25GiB peak=13.33GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=2000 val_nmse=0.0320045
+[TRAIN] step=02000 loss=-2.25224 nmse_prop=0.04041 nmse_ls=0.13073 lr=7.992e-04 step_time=237.458s steps_per_s=1.208 gpu_mem=0.25GiB peak=13.33GiB
+[TRAIN] saved resumable state at step=2000 reason=periodic: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/optuna/runs_1dmrs/clean_b32_prb8_d256_40k_smart_u34610_1dmrs_stageA_wide_deep_d320_b6_r2/wide_deep_d320_b6_r2_trial_0014/checkpoints/training_state/ckpt-2000
+[OPTUNA-WORKER] trial=14 report step=2000 value=-1.5587925
+[OPTUNA-WORKER] trial=14 pruned by percentile at step=2000 value=-1.5587925
+[OPTUNA-WORKER] pruned trial=14: pruned at step=2000 value=-1.5587925
+[OPTUNA-ISO] pruned trial=14: pruned at step=2000 value=-1.5587925
+[OPTUNA] exported best params: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/optuna/clean_b32_prb8_d256_40k_smart_u34610_1dmrs_stageA_wide_deep_d320_b6_r2_best_params.json
+[OPTUNA-ISO] starting stage=A trial=15 trial_id=16 params={'batch_size_train': 32, 'batch_size_eval': 32, 'learning_rate_schedule': 'cosine_decay', 'learning_rate': 0.000495924899518785, 'learning_rate_decay_fraction': 1.0, 'learning_rate_final_fraction': 0.10606214932972537, 'learning_rate_polynomial_power': 1.0, 'weight_decay': 7.566305554404637e-05, 'nmse_loss_weight': 0.4675091522380364, 'grad_clip_norm': 0.5, 'dropout': 0.0321530053557508, 'residual_scale': 0.1562688440252098}
+[OPTUNA-ISO] launching worker trial=15 pid=<pending> params={'batch_size_train': 32, 'batch_size_eval': 32, 'learning_rate_schedule': 'cosine_decay', 'learning_rate': 0.000495924899518785, 'learning_rate_decay_fraction': 1.0, 'learning_rate_final_fraction': 0.10606214932972537, 'learning_rate_polynomial_power': 1.0, 'weight_decay': 7.566305554404637e-05, 'nmse_loss_weight': 0.4675091522380364, 'grad_clip_norm': 0.5, 'dropout': 0.0321530053557508, 'residual_scale': 0.1562688440252098}
+2026-06-05 08:39:50.685731: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-06-05 08:39:50.723063: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-06-05 08:39:50.723108: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-06-05 08:39:50.724117: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-06-05 08:39:50.729068: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[OPTUNA-WORKER] start trial=15 pid=3395769 TF_GPU_ALLOCATOR=<unset/default> TF_FORCE_GPU_ALLOW_GROWTH=true
+2026-06-05 08:40:04.752254: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2348] TensorFlow was not built with CUDA kernel binaries compatible with compute capability 9.0. CUDA kernels will be jit-compiled from PTX, which could take 30 minutes or longer.
+[OPTUNA-WORKER] visible_gpus=[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+2026-06-05 08:40:09.862151: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2348] TensorFlow was not built with CUDA kernel binaries compatible with compute capability 9.0. CUDA kernels will be jit-compiled from PTX, which could take 30 minutes or longer.
+2026-06-05 08:40:10.016923: W tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:47] Overriding orig_value setting because the TF_FORCE_GPU_ALLOW_GROWTH environment variable is set. Original config value was 0.
+2026-06-05 08:40:10.017887: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1929] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 78752 MB memory:  -> device: 0, name: NVIDIA H100 80GB HBM3, pci bus id: 0000:cb:00.0, compute capability: 9.0
+2026-06-05 08:40:10.267099: I external/local_tsl/tsl/platform/default/subprocess.cc:304] Start cannot spawn child process: No such file or directory
+[TRAIN] optimizer lr_schedule=cosine_decay learning_rate=0.000495925 weight_decay=7.56631e-05
+[TRAIN] seeds active_seed=7 training_seed=7 evaluation_seed=1007
+[TRAIN] starting from scratch
+2026-06-05 08:40:38.896350: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:961] layout failed: INVALID_ARGUMENT: Size of values 0 does not match size of permutation 4 @ fanin shape inaxial_block_0/dropout/dropout_2/SelectV2-2-TransposeNHWCToNCHW-LayoutOptimizer
+2026-06-05 08:40:41.610039: I external/local_xla/xla/service/service.cc:168] XLA service 0x14b3be532a70 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2026-06-05 08:40:41.610097: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): NVIDIA H100 80GB HBM3, Compute Capability 9.0
+2026-06-05 08:40:41.613858: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+2026-06-05 08:40:41.698507: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:454] Loaded cuDNN version 8905
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780663241.773894 3395873 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+[TRAIN] step=00001 loss=-0.83600 nmse_prop=0.14717 nmse_ls=0.14717 lr=4.959e-04 step_time=22.634s steps_per_s=0.044 gpu_mem=0.17GiB peak=13.03GiB
+[TRAIN] step=00100 loss=-1.46349 nmse_prop=0.08153 nmse_ls=0.09231 lr=4.953e-04 step_time=0.638s steps_per_s=0.969 gpu_mem=0.24GiB peak=13.30GiB
+[TRAIN] step=00200 loss=-1.35859 nmse_prop=0.08757 nmse_ls=0.11393 lr=4.932e-04 step_time=0.628s steps_per_s=1.268 gpu_mem=0.24GiB peak=13.30GiB
+[TRAIN] step=00300 loss=-1.68579 nmse_prop=0.06702 nmse_ls=0.09367 lr=4.898e-04 step_time=0.645s steps_per_s=1.405 gpu_mem=0.24GiB peak=13.30GiB
+[TRAIN] step=00400 loss=-1.77629 nmse_prop=0.06156 nmse_ls=0.09525 lr=4.851e-04 step_time=0.631s steps_per_s=1.483 gpu_mem=0.24GiB peak=13.32GiB
+[TRAIN] step=00500 loss=-1.74606 nmse_prop=0.06423 nmse_ls=0.13407 lr=4.791e-04 step_time=0.522s steps_per_s=1.532 gpu_mem=0.24GiB peak=13.32GiB
+[TRAIN] step=00600 loss=-2.58745 nmse_prop=0.02909 nmse_ls=0.04503 lr=4.718e-04 step_time=0.528s steps_per_s=1.575 gpu_mem=0.24GiB peak=13.32GiB
+[TRAIN] step=00700 loss=-2.27747 nmse_prop=0.03935 nmse_ls=0.08219 lr=4.634e-04 step_time=0.520s steps_per_s=1.604 gpu_mem=0.24GiB peak=13.32GiB
+[TRAIN] step=00800 loss=-2.68397 nmse_prop=0.02733 nmse_ls=0.05117 lr=4.537e-04 step_time=0.522s steps_per_s=1.623 gpu_mem=0.24GiB peak=13.32GiB
+[TRAIN] step=00900 loss=-2.87753 nmse_prop=0.02339 nmse_ls=0.03560 lr=4.429e-04 step_time=0.630s steps_per_s=1.642 gpu_mem=0.24GiB peak=13.32GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=1000 val_nmse=0.0374919
+[TRAIN] step=01000 loss=-2.11966 nmse_prop=0.04489 nmse_ls=0.11883 lr=4.311e-04 step_time=241.090s steps_per_s=1.183 gpu_mem=0.25GiB peak=13.32GiB
+[TRAIN] saved resumable state at step=1000 reason=periodic: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/optuna/runs_1dmrs/clean_b32_prb8_d256_40k_smart_u34610_1dmrs_stageA_wide_deep_d320_b6_r2/wide_deep_d320_b6_r2_trial_0015/checkpoints/training_state/ckpt-1000
+[OPTUNA-WORKER] trial=15 report step=1000 value=-1.5019705
+[OPTUNA-WORKER] trial=15 pruned by percentile at step=1000 value=-1.5019705
+[OPTUNA-WORKER] pruned trial=15: pruned at step=1000 value=-1.5019705
+[OPTUNA-ISO] pruned trial=15: pruned at step=1000 value=-1.5019705
+[OPTUNA] exported best params: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/optuna/clean_b32_prb8_d256_40k_smart_u34610_1dmrs_stageA_wide_deep_d320_b6_r2_best_params.json
+[OPTUNA-ISO] starting stage=A trial=16 trial_id=17 params={'batch_size_train': 32, 'batch_size_eval': 32, 'learning_rate_schedule': 'cosine_decay', 'learning_rate': 0.0008314001560313905, 'learning_rate_decay_fraction': 1.25, 'learning_rate_final_fraction': 0.0433813278565278, 'learning_rate_polynomial_power': 1.0, 'weight_decay': 4.1712033301501554e-05, 'nmse_loss_weight': 0.36985863861304485, 'grad_clip_norm': 0.5, 'dropout': 0.09526144347029343, 'residual_scale': 0.42363058086428695}
+[OPTUNA-ISO] launching worker trial=16 pid=<pending> params={'batch_size_train': 32, 'batch_size_eval': 32, 'learning_rate_schedule': 'cosine_decay', 'learning_rate': 0.0008314001560313905, 'learning_rate_decay_fraction': 1.25, 'learning_rate_final_fraction': 0.0433813278565278, 'learning_rate_polynomial_power': 1.0, 'weight_decay': 4.1712033301501554e-05, 'nmse_loss_weight': 0.36985863861304485, 'grad_clip_norm': 0.5, 'dropout': 0.09526144347029343, 'residual_scale': 0.42363058086428695}
+2026-06-05 08:54:58.266132: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-06-05 08:54:58.438369: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-06-05 08:54:58.438421: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-06-05 08:54:58.439487: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-06-05 08:54:58.444594: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[OPTUNA-WORKER] start trial=16 pid=3405893 TF_GPU_ALLOCATOR=<unset/default> TF_FORCE_GPU_ALLOW_GROWTH=true
+2026-06-05 08:55:12.068717: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2348] TensorFlow was not built with CUDA kernel binaries compatible with compute capability 9.0. CUDA kernels will be jit-compiled from PTX, which could take 30 minutes or longer.
+[OPTUNA-WORKER] visible_gpus=[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+2026-06-05 08:55:19.515859: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2348] TensorFlow was not built with CUDA kernel binaries compatible with compute capability 9.0. CUDA kernels will be jit-compiled from PTX, which could take 30 minutes or longer.
+2026-06-05 08:55:19.685884: W tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:47] Overriding orig_value setting because the TF_FORCE_GPU_ALLOW_GROWTH environment variable is set. Original config value was 0.
+2026-06-05 08:55:19.686746: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1929] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 78752 MB memory:  -> device: 0, name: NVIDIA H100 80GB HBM3, pci bus id: 0000:cb:00.0, compute capability: 9.0
+2026-06-05 08:55:21.133466: I external/local_tsl/tsl/platform/default/subprocess.cc:304] Start cannot spawn child process: No such file or directory
+[TRAIN] optimizer lr_schedule=cosine_decay learning_rate=0.0008314 weight_decay=4.1712e-05
+[TRAIN] seeds active_seed=7 training_seed=7 evaluation_seed=1007
+[TRAIN] starting from scratch
+2026-06-05 08:56:01.068326: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:961] layout failed: INVALID_ARGUMENT: Size of values 0 does not match size of permutation 4 @ fanin shape inaxial_block_0/dropout/dropout_2/SelectV2-2-TransposeNHWCToNCHW-LayoutOptimizer
+2026-06-05 08:56:04.305394: I external/local_xla/xla/service/service.cc:168] XLA service 0x150d4c184100 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2026-06-05 08:56:04.305454: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): NVIDIA H100 80GB HBM3, Compute Capability 9.0
+2026-06-05 08:56:04.309381: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+2026-06-05 08:56:04.563214: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:454] Loaded cuDNN version 8905
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780664164.640029 3406014 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+[TRAIN] step=00001 loss=-0.85225 nmse_prop=0.14687 nmse_ls=0.14687 lr=8.314e-04 step_time=23.388s steps_per_s=0.043 gpu_mem=0.17GiB peak=13.00GiB
+[TRAIN] step=00100 loss=-1.50192 nmse_prop=0.07956 nmse_ls=0.09500 lr=8.306e-04 step_time=0.604s steps_per_s=0.966 gpu_mem=0.24GiB peak=13.33GiB
+[TRAIN] step=00200 loss=-1.43627 nmse_prop=0.08213 nmse_ls=0.11548 lr=8.283e-04 step_time=0.631s steps_per_s=1.265 gpu_mem=0.23GiB peak=13.33GiB
+[TRAIN] step=00300 loss=-1.77430 nmse_prop=0.06144 nmse_ls=0.09268 lr=8.244e-04 step_time=0.647s steps_per_s=1.398 gpu_mem=0.23GiB peak=13.33GiB
+[TRAIN] step=00400 loss=-1.86315 nmse_prop=0.05542 nmse_ls=0.09497 lr=8.190e-04 step_time=0.649s steps_per_s=1.471 gpu_mem=0.23GiB peak=13.33GiB
+[TRAIN] step=00500 loss=-1.75643 nmse_prop=0.06316 nmse_ls=0.13210 lr=8.120e-04 step_time=0.536s steps_per_s=1.516 gpu_mem=0.24GiB peak=13.33GiB
+[TRAIN] step=00600 loss=-2.53377 nmse_prop=0.03001 nmse_ls=0.04605 lr=8.036e-04 step_time=0.540s steps_per_s=1.556 gpu_mem=0.24GiB peak=13.37GiB
+[TRAIN] step=00700 loss=-2.31956 nmse_prop=0.03755 nmse_ls=0.08119 lr=7.937e-04 step_time=0.535s steps_per_s=1.580 gpu_mem=0.24GiB peak=13.37GiB
+[TRAIN] step=00800 loss=-2.69062 nmse_prop=0.02676 nmse_ls=0.05123 lr=7.823e-04 step_time=0.532s steps_per_s=1.597 gpu_mem=0.24GiB peak=13.37GiB
+[TRAIN] step=00900 loss=-2.80813 nmse_prop=0.02504 nmse_ls=0.03818 lr=7.696e-04 step_time=0.645s steps_per_s=1.612 gpu_mem=0.23GiB peak=13.37GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=1000 val_nmse=0.0357971
+[TRAIN] step=01000 loss=-2.24149 nmse_prop=0.04051 nmse_ls=0.11393 lr=7.556e-04 step_time=260.993s steps_per_s=1.141 gpu_mem=0.25GiB peak=13.37GiB
+[TRAIN] saved resumable state at step=1000 reason=periodic: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/optuna/runs_1dmrs/clean_b32_prb8_d256_40k_smart_u34610_1dmrs_stageA_wide_deep_d320_b6_r2/wide_deep_d320_b6_r2_trial_0016/checkpoints/training_state/ckpt-1000
+[OPTUNA-WORKER] trial=16 report step=1000 value=-1.525853
+[OPTUNA-WORKER] trial=16 pruned by percentile at step=1000 value=-1.525853
+[OPTUNA-WORKER] pruned trial=16: pruned at step=1000 value=-1.525853
+[OPTUNA-ISO] pruned trial=16: pruned at step=1000 value=-1.525853
+[OPTUNA] exported best params: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/optuna/clean_b32_prb8_d256_40k_smart_u34610_1dmrs_stageA_wide_deep_d320_b6_r2_best_params.json
+[OPTUNA-ISO] starting stage=A trial=17 trial_id=18 params={'batch_size_train': 32, 'batch_size_eval': 32, 'learning_rate_schedule': 'constant', 'learning_rate': 0.0007923452983659152, 'learning_rate_decay_fraction': 1.0, 'learning_rate_final_fraction': 0.05, 'learning_rate_polynomial_power': 1.0, 'weight_decay': 2.5763960097605724e-05, 'nmse_loss_weight': 0.12510896437024863, 'grad_clip_norm': 0.5, 'dropout': 0.021900651685501017, 'residual_scale': 0.48795047661802343}
+[OPTUNA-ISO] launching worker trial=17 pid=<pending> params={'batch_size_train': 32, 'batch_size_eval': 32, 'learning_rate_schedule': 'constant', 'learning_rate': 0.0007923452983659152, 'learning_rate_decay_fraction': 1.0, 'learning_rate_final_fraction': 0.05, 'learning_rate_polynomial_power': 1.0, 'weight_decay': 2.5763960097605724e-05, 'nmse_loss_weight': 0.12510896437024863, 'grad_clip_norm': 0.5, 'dropout': 0.021900651685501017, 'residual_scale': 0.48795047661802343}
+2026-06-05 09:11:32.627244: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-06-05 09:11:32.710457: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-06-05 09:11:32.710495: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-06-05 09:11:32.711519: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-06-05 09:11:32.716250: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[OPTUNA-WORKER] start trial=17 pid=3413875 TF_GPU_ALLOCATOR=<unset/default> TF_FORCE_GPU_ALLOW_GROWTH=true
+2026-06-05 09:11:56.284337: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2348] TensorFlow was not built with CUDA kernel binaries compatible with compute capability 9.0. CUDA kernels will be jit-compiled from PTX, which could take 30 minutes or longer.
+[OPTUNA-WORKER] visible_gpus=[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+2026-06-05 09:12:14.167656: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2348] TensorFlow was not built with CUDA kernel binaries compatible with compute capability 9.0. CUDA kernels will be jit-compiled from PTX, which could take 30 minutes or longer.
+2026-06-05 09:12:14.308408: W tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:47] Overriding orig_value setting because the TF_FORCE_GPU_ALLOW_GROWTH environment variable is set. Original config value was 0.
+2026-06-05 09:12:14.309271: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1929] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 78752 MB memory:  -> device: 0, name: NVIDIA H100 80GB HBM3, pci bus id: 0000:cb:00.0, compute capability: 9.0
+2026-06-05 09:12:14.719042: I external/local_tsl/tsl/platform/default/subprocess.cc:304] Start cannot spawn child process: No such file or directory
+[TRAIN] optimizer lr_schedule=constant learning_rate=0.000792345 weight_decay=2.5764e-05
+[TRAIN] seeds active_seed=7 training_seed=7 evaluation_seed=1007
+[TRAIN] starting from scratch
+2026-06-05 09:12:56.756066: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:961] layout failed: INVALID_ARGUMENT: Size of values 0 does not match size of permutation 4 @ fanin shape inaxial_block_0/dropout/dropout_2/SelectV2-2-TransposeNHWCToNCHW-LayoutOptimizer
+2026-06-05 09:13:03.466002: I external/local_xla/xla/service/service.cc:168] XLA service 0x154bbec82b90 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2026-06-05 09:13:03.466067: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): NVIDIA H100 80GB HBM3, Compute Capability 9.0
+2026-06-05 09:13:03.469985: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+2026-06-05 09:13:03.917400: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:454] Loaded cuDNN version 8905
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780665184.271139 3414117 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+[TRAIN] step=00001 loss=-0.87862 nmse_prop=0.14848 nmse_ls=0.14848 lr=7.923e-04 step_time=27.489s steps_per_s=0.036 gpu_mem=0.16GiB peak=12.99GiB
+[TRAIN] step=00100 loss=-1.55160 nmse_prop=0.07692 nmse_ls=0.09320 lr=7.923e-04 step_time=0.645s steps_per_s=0.930 gpu_mem=0.23GiB peak=13.21GiB
+[TRAIN] step=00200 loss=-1.45137 nmse_prop=0.08206 nmse_ls=0.11609 lr=7.923e-04 step_time=0.622s steps_per_s=1.236 gpu_mem=0.23GiB peak=13.27GiB
+[TRAIN] step=00300 loss=-1.81705 nmse_prop=0.05992 nmse_ls=0.09185 lr=7.923e-04 step_time=0.629s steps_per_s=1.379 gpu_mem=0.23GiB peak=13.27GiB
+[TRAIN] step=00400 loss=-1.91441 nmse_prop=0.05400 nmse_ls=0.09527 lr=7.923e-04 step_time=0.633s steps_per_s=1.462 gpu_mem=0.23GiB peak=13.27GiB
+[TRAIN] step=00500 loss=-1.85570 nmse_prop=0.05821 nmse_ls=0.13259 lr=7.923e-04 step_time=0.530s steps_per_s=1.515 gpu_mem=0.23GiB peak=13.27GiB
+[TRAIN] step=00600 loss=-2.59591 nmse_prop=0.02796 nmse_ls=0.04449 lr=7.923e-04 step_time=0.523s steps_per_s=1.561 gpu_mem=0.23GiB peak=13.27GiB
+[TRAIN] step=00700 loss=-2.37682 nmse_prop=0.03587 nmse_ls=0.08166 lr=7.923e-04 step_time=0.523s steps_per_s=1.592 gpu_mem=0.23GiB peak=13.27GiB
+[TRAIN] step=00800 loss=-2.66599 nmse_prop=0.02808 nmse_ls=0.05293 lr=7.923e-04 step_time=0.527s steps_per_s=1.612 gpu_mem=0.23GiB peak=13.27GiB
+[TRAIN] step=00900 loss=-2.87771 nmse_prop=0.02282 nmse_ls=0.03633 lr=7.923e-04 step_time=0.629s steps_per_s=1.631 gpu_mem=0.24GiB peak=13.27GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=1000 val_nmse=0.035603
+[TRAIN] step=01000 loss=-2.25904 nmse_prop=0.04012 nmse_ls=0.11364 lr=7.923e-04 step_time=243.069s steps_per_s=1.175 gpu_mem=0.25GiB peak=13.27GiB
+[TRAIN] saved resumable state at step=1000 reason=periodic: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/optuna/runs_1dmrs/clean_b32_prb8_d256_40k_smart_u34610_1dmrs_stageA_wide_deep_d320_b6_r2/wide_deep_d320_b6_r2_trial_0017/checkpoints/training_state/ckpt-1000
+[OPTUNA-WORKER] trial=17 report step=1000 value=-1.5286819
+[TRAIN] step=01100 loss=-2.85131 nmse_prop=0.02383 nmse_ls=0.04217 lr=7.923e-04 step_time=0.631s steps_per_s=1.191 gpu_mem=0.25GiB peak=13.27GiB
+[TRAIN] step=01200 loss=-2.08043 nmse_prop=0.04811 nmse_ls=0.13142 lr=7.923e-04 step_time=0.598s steps_per_s=1.226 gpu_mem=0.25GiB peak=13.27GiB
+[TRAIN] step=01300 loss=-3.07910 nmse_prop=0.02009 nmse_ls=0.03807 lr=7.923e-04 step_time=0.403s steps_per_s=1.258 gpu_mem=0.25GiB peak=13.27GiB
+[TRAIN] step=01400 loss=-2.28404 nmse_prop=0.04011 nmse_ls=0.11439 lr=7.923e-04 step_time=0.503s steps_per_s=1.288 gpu_mem=0.25GiB peak=13.27GiB
+[TRAIN] step=01500 loss=-2.91908 nmse_prop=0.02261 nmse_ls=0.04673 lr=7.923e-04 step_time=0.525s steps_per_s=1.312 gpu_mem=0.25GiB peak=13.27GiB
+[TRAIN] step=01600 loss=-1.81983 nmse_prop=0.06163 nmse_ls=0.19590 lr=7.923e-04 step_time=0.636s steps_per_s=1.335 gpu_mem=0.25GiB peak=13.27GiB
+[TRAIN] step=01700 loss=-2.33024 nmse_prop=0.03742 nmse_ls=0.11216 lr=7.923e-04 step_time=0.525s steps_per_s=1.355 gpu_mem=0.25GiB peak=13.27GiB
+[TRAIN] step=01800 loss=-2.05293 nmse_prop=0.04879 nmse_ls=0.14519 lr=7.923e-04 step_time=0.631s steps_per_s=1.371 gpu_mem=0.25GiB peak=13.28GiB
+[TRAIN] step=01900 loss=-2.80096 nmse_prop=0.02374 nmse_ls=0.05554 lr=7.923e-04 step_time=0.525s steps_per_s=1.387 gpu_mem=0.25GiB peak=13.28GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=2000 val_nmse=0.0326474
+[TRAIN] step=02000 loss=-2.21403 nmse_prop=0.04232 nmse_ls=0.13189 lr=7.923e-04 step_time=243.951s steps_per_s=1.198 gpu_mem=0.25GiB peak=13.28GiB
+[TRAIN] saved resumable state at step=2000 reason=periodic: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/optuna/runs_1dmrs/clean_b32_prb8_d256_40k_smart_u34610_1dmrs_stageA_wide_deep_d320_b6_r2/wide_deep_d320_b6_r2_trial_0017/checkpoints/training_state/ckpt-2000
+[OPTUNA-WORKER] trial=17 report step=2000 value=-1.5544163
+[OPTUNA-WORKER] trial=17 pruned by percentile at step=2000 value=-1.5544163
+[OPTUNA-WORKER] pruned trial=17: pruned at step=2000 value=-1.5544163
+[OPTUNA-ISO] pruned trial=17: pruned at step=2000 value=-1.5544163
+[OPTUNA] exported best params: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/optuna/clean_b32_prb8_d256_40k_smart_u34610_1dmrs_stageA_wide_deep_d320_b6_r2_best_params.json
+[OPTUNA-ISO] starting stage=A trial=18 trial_id=19 params={'batch_size_train': 32, 'batch_size_eval': 32, 'learning_rate_schedule': 'cosine_decay', 'learning_rate': 0.0010232689081441867, 'learning_rate_decay_fraction': 1.25, 'learning_rate_final_fraction': 0.08835664096391597, 'learning_rate_polynomial_power': 1.0, 'weight_decay': 5.165111322587516e-07, 'nmse_loss_weight': 0.3149616397730811, 'grad_clip_norm': 0.5, 'dropout': 0.04437936451002058, 'residual_scale': 0.5251638955533136}
+[OPTUNA-ISO] launching worker trial=18 pid=<pending> params={'batch_size_train': 32, 'batch_size_eval': 32, 'learning_rate_schedule': 'cosine_decay', 'learning_rate': 0.0010232689081441867, 'learning_rate_decay_fraction': 1.25, 'learning_rate_final_fraction': 0.08835664096391597, 'learning_rate_polynomial_power': 1.0, 'weight_decay': 5.165111322587516e-07, 'nmse_loss_weight': 0.3149616397730811, 'grad_clip_norm': 0.5, 'dropout': 0.04437936451002058, 'residual_scale': 0.5251638955533136}
+2026-06-05 09:42:12.394942: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-06-05 09:42:13.382699: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-06-05 09:42:13.382754: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-06-05 09:42:13.383827: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-06-05 09:42:13.388970: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[OPTUNA-WORKER] start trial=18 pid=3433743 TF_GPU_ALLOCATOR=<unset/default> TF_FORCE_GPU_ALLOW_GROWTH=true
+2026-06-05 09:42:32.798115: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2348] TensorFlow was not built with CUDA kernel binaries compatible with compute capability 9.0. CUDA kernels will be jit-compiled from PTX, which could take 30 minutes or longer.
+[OPTUNA-WORKER] visible_gpus=[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+2026-06-05 09:42:53.016428: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2348] TensorFlow was not built with CUDA kernel binaries compatible with compute capability 9.0. CUDA kernels will be jit-compiled from PTX, which could take 30 minutes or longer.
+2026-06-05 09:42:53.166586: W tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:47] Overriding orig_value setting because the TF_FORCE_GPU_ALLOW_GROWTH environment variable is set. Original config value was 0.
+2026-06-05 09:42:53.167458: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1929] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 78752 MB memory:  -> device: 0, name: NVIDIA H100 80GB HBM3, pci bus id: 0000:cb:00.0, compute capability: 9.0
+2026-06-05 09:42:54.978300: I external/local_tsl/tsl/platform/default/subprocess.cc:304] Start cannot spawn child process: No such file or directory
+[TRAIN] optimizer lr_schedule=cosine_decay learning_rate=0.00102327 weight_decay=5.16511e-07
+[TRAIN] seeds active_seed=7 training_seed=7 evaluation_seed=1007
+[TRAIN] starting from scratch
+2026-06-05 09:43:37.396881: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:961] layout failed: INVALID_ARGUMENT: Size of values 0 does not match size of permutation 4 @ fanin shape inaxial_block_0/dropout/dropout_2/SelectV2-2-TransposeNHWCToNCHW-LayoutOptimizer
+2026-06-05 09:43:42.062583: I external/local_xla/xla/service/service.cc:168] XLA service 0x14da2858eb20 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2026-06-05 09:43:42.062646: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): NVIDIA H100 80GB HBM3, Compute Capability 9.0
+2026-06-05 09:43:42.066561: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+2026-06-05 09:43:42.368960: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:454] Loaded cuDNN version 8905
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780667022.947764 3433967 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+[TRAIN] step=00001 loss=-0.84987 nmse_prop=0.14857 nmse_ls=0.14857 lr=1.023e-03 step_time=25.942s steps_per_s=0.039 gpu_mem=0.16GiB peak=13.00GiB
+[TRAIN] step=00100 loss=-1.51470 nmse_prop=0.07885 nmse_ls=0.09518 lr=1.022e-03 step_time=0.627s steps_per_s=0.938 gpu_mem=0.23GiB peak=13.28GiB
+[TRAIN] step=00200 loss=-1.41262 nmse_prop=0.08221 nmse_ls=0.11578 lr=1.020e-03 step_time=0.630s steps_per_s=1.241 gpu_mem=0.24GiB peak=13.35GiB
+[TRAIN] step=00300 loss=-1.81101 nmse_prop=0.05952 nmse_ls=0.09163 lr=1.015e-03 step_time=0.636s steps_per_s=1.382 gpu_mem=0.24GiB peak=13.35GiB
+[TRAIN] step=00400 loss=-1.92037 nmse_prop=0.05331 nmse_ls=0.09313 lr=1.009e-03 step_time=0.607s steps_per_s=1.465 gpu_mem=0.24GiB peak=13.35GiB
+[TRAIN] step=00500 loss=-1.82942 nmse_prop=0.05935 nmse_ls=0.13361 lr=1.001e-03 step_time=0.502s steps_per_s=1.526 gpu_mem=0.24GiB peak=13.35GiB
+[TRAIN] step=00600 loss=-2.65861 nmse_prop=0.02612 nmse_ls=0.04238 lr=9.906e-04 step_time=0.511s steps_per_s=1.578 gpu_mem=0.24GiB peak=13.35GiB
+[TRAIN] step=00700 loss=-2.32907 nmse_prop=0.03724 nmse_ls=0.08175 lr=9.790e-04 step_time=0.528s steps_per_s=1.607 gpu_mem=0.24GiB peak=13.35GiB
+[TRAIN] step=00800 loss=-2.67437 nmse_prop=0.02783 nmse_ls=0.05165 lr=9.657e-04 step_time=0.527s steps_per_s=1.625 gpu_mem=0.24GiB peak=13.35GiB
+[TRAIN] step=00900 loss=-2.81818 nmse_prop=0.02462 nmse_ls=0.03798 lr=9.508e-04 step_time=0.640s steps_per_s=1.644 gpu_mem=0.24GiB peak=13.35GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=1000 val_nmse=0.0362801
+[TRAIN] step=01000 loss=-2.16624 nmse_prop=0.04277 nmse_ls=0.11801 lr=9.344e-04 step_time=242.915s steps_per_s=1.180 gpu_mem=0.25GiB peak=13.35GiB
+[TRAIN] saved resumable state at step=1000 reason=periodic: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/optuna/runs_1dmrs/clean_b32_prb8_d256_40k_smart_u34610_1dmrs_stageA_wide_deep_d320_b6_r2/wide_deep_d320_b6_r2_trial_0018/checkpoints/training_state/ckpt-1000
+[OPTUNA-WORKER] trial=18 report step=1000 value=-1.5190937
+[OPTUNA-WORKER] trial=18 pruned by percentile at step=1000 value=-1.5190937
+[OPTUNA-WORKER] pruned trial=18: pruned at step=1000 value=-1.5190937
+[OPTUNA-ISO] pruned trial=18: pruned at step=1000 value=-1.5190937
+[OPTUNA] exported best params: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/optuna/clean_b32_prb8_d256_40k_smart_u34610_1dmrs_stageA_wide_deep_d320_b6_r2_best_params.json
+[OPTUNA-ISO] starting stage=A trial=19 trial_id=20 params={'batch_size_train': 32, 'batch_size_eval': 32, 'learning_rate_schedule': 'cosine_decay', 'learning_rate': 0.0008945570839882555, 'learning_rate_decay_fraction': 0.75, 'learning_rate_final_fraction': 0.048068868966150015, 'learning_rate_polynomial_power': 1.0, 'weight_decay': 0.00013429363082872808, 'nmse_loss_weight': 0.07278571883096727, 'grad_clip_norm': 2.0, 'dropout': 0.016464168100459517, 'residual_scale': 0.5951706925252631}
+[OPTUNA-ISO] launching worker trial=19 pid=<pending> params={'batch_size_train': 32, 'batch_size_eval': 32, 'learning_rate_schedule': 'cosine_decay', 'learning_rate': 0.0008945570839882555, 'learning_rate_decay_fraction': 0.75, 'learning_rate_final_fraction': 0.048068868966150015, 'learning_rate_polynomial_power': 1.0, 'weight_decay': 0.00013429363082872808, 'nmse_loss_weight': 0.07278571883096727, 'grad_clip_norm': 2.0, 'dropout': 0.016464168100459517, 'residual_scale': 0.5951706925252631}
+2026-06-05 09:58:27.970290: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-06-05 09:58:28.039077: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-06-05 09:58:28.039126: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-06-05 09:58:28.040200: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-06-05 09:58:28.045392: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[OPTUNA-WORKER] start trial=19 pid=3442314 TF_GPU_ALLOCATOR=<unset/default> TF_FORCE_GPU_ALLOW_GROWTH=true
+2026-06-05 09:58:46.065115: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2348] TensorFlow was not built with CUDA kernel binaries compatible with compute capability 9.0. CUDA kernels will be jit-compiled from PTX, which could take 30 minutes or longer.
+[OPTUNA-WORKER] visible_gpus=[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+2026-06-05 09:58:56.451533: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2348] TensorFlow was not built with CUDA kernel binaries compatible with compute capability 9.0. CUDA kernels will be jit-compiled from PTX, which could take 30 minutes or longer.
+2026-06-05 09:58:56.610207: W tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:47] Overriding orig_value setting because the TF_FORCE_GPU_ALLOW_GROWTH environment variable is set. Original config value was 0.
+2026-06-05 09:58:56.611055: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1929] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 78752 MB memory:  -> device: 0, name: NVIDIA H100 80GB HBM3, pci bus id: 0000:cb:00.0, compute capability: 9.0
+2026-06-05 09:58:57.043011: I external/local_tsl/tsl/platform/default/subprocess.cc:304] Start cannot spawn child process: No such file or directory
+[TRAIN] optimizer lr_schedule=cosine_decay learning_rate=0.000894557 weight_decay=0.000134294
+[TRAIN] seeds active_seed=7 training_seed=7 evaluation_seed=1007
+[TRAIN] starting from scratch
+2026-06-05 10:00:05.021557: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:961] layout failed: INVALID_ARGUMENT: Size of values 0 does not match size of permutation 4 @ fanin shape inaxial_block_0/dropout/dropout_2/SelectV2-2-TransposeNHWCToNCHW-LayoutOptimizer
+2026-06-05 10:00:09.298469: I external/local_xla/xla/service/service.cc:168] XLA service 0x1519b86973c0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2026-06-05 10:00:09.298533: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): NVIDIA H100 80GB HBM3, Compute Capability 9.0
+2026-06-05 10:00:09.302687: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+2026-06-05 10:00:09.697414: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:454] Loaded cuDNN version 8905
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780668009.789242 3442773 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+[TRAIN] step=00001 loss=-0.89730 nmse_prop=0.14663 nmse_ls=0.14663 lr=8.946e-04 step_time=24.817s steps_per_s=0.040 gpu_mem=0.16GiB peak=13.10GiB
+[TRAIN] step=00100 loss=-1.47135 nmse_prop=0.08346 nmse_ls=0.09440 lr=8.923e-04 step_time=0.627s steps_per_s=0.948 gpu_mem=0.24GiB peak=13.31GiB
+[TRAIN] step=00200 loss=-1.40302 nmse_prop=0.08544 nmse_ls=0.11354 lr=8.853e-04 step_time=0.635s steps_per_s=1.251 gpu_mem=0.24GiB peak=13.31GiB
+[TRAIN] step=00300 loss=-1.71850 nmse_prop=0.06572 nmse_ls=0.09330 lr=8.739e-04 step_time=0.633s steps_per_s=1.390 gpu_mem=0.24GiB peak=13.32GiB
+[TRAIN] step=00400 loss=-1.81977 nmse_prop=0.05826 nmse_ls=0.09429 lr=8.579e-04 step_time=0.625s steps_per_s=1.469 gpu_mem=0.24GiB peak=13.32GiB
+[TRAIN] step=00500 loss=-1.70071 nmse_prop=0.06786 nmse_ls=0.13448 lr=8.377e-04 step_time=0.525s steps_per_s=1.520 gpu_mem=0.24GiB peak=13.32GiB
+[TRAIN] step=00600 loss=-2.59749 nmse_prop=0.02916 nmse_ls=0.04507 lr=8.135e-04 step_time=0.522s steps_per_s=1.563 gpu_mem=0.24GiB peak=13.32GiB
+[TRAIN] step=00700 loss=-2.21787 nmse_prop=0.04173 nmse_ls=0.08260 lr=7.855e-04 step_time=0.523s steps_per_s=1.594 gpu_mem=0.25GiB peak=13.32GiB
+[TRAIN] step=00800 loss=-2.57903 nmse_prop=0.03048 nmse_ls=0.05319 lr=7.540e-04 step_time=0.526s steps_per_s=1.613 gpu_mem=0.24GiB peak=13.33GiB
+[TRAIN] step=00900 loss=-2.94223 nmse_prop=0.02145 nmse_ls=0.03425 lr=7.194e-04 step_time=0.614s steps_per_s=1.631 gpu_mem=0.25GiB peak=13.33GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=1000 val_nmse=0.0369075
+[TRAIN] step=01000 loss=-2.24224 nmse_prop=0.04016 nmse_ls=0.11415 lr=6.821e-04 step_time=243.347s steps_per_s=1.174 gpu_mem=0.26GiB peak=13.33GiB
+[TRAIN] saved resumable state at step=1000 reason=periodic: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/optuna/runs_1dmrs/clean_b32_prb8_d256_40k_smart_u34610_1dmrs_stageA_wide_deep_d320_b6_r2/wide_deep_d320_b6_r2_trial_0019/checkpoints/training_state/ckpt-1000
+[OPTUNA-WORKER] trial=19 report step=1000 value=-1.5101993
+[OPTUNA-WORKER] trial=19 pruned by percentile at step=1000 value=-1.5101993
+[OPTUNA-WORKER] pruned trial=19: pruned at step=1000 value=-1.5101993
+[OPTUNA-ISO] pruned trial=19: pruned at step=1000 value=-1.5101993
+[OPTUNA] exported best params: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/optuna/clean_b32_prb8_d256_40k_smart_u34610_1dmrs_stageA_wide_deep_d320_b6_r2_best_params.json
+[OPTUNA-ISO] study: clean_b32_prb8_d256_40k_smart_u34610_1dmrs_stageA_wide_deep_d320_b6_r2
+[OPTUNA-ISO] stage: A
+[OPTUNA-ISO] trials: 20
+[OPTUNA-ISO] completed_trials: 11
+[OPTUNA-ISO] pruned_trials: 9
+[OPTUNA-ISO] finished_trials: 20
+[OPTUNA-ISO] failed_trials: 0
+[OPTUNA-ISO] best_value: -1.655821319769388
+[OPTUNA-ISO] best_params: {'learning_rate_schedule': 'cosine_decay', 'learning_rate': 0.001199270587979418, 'learning_rate_decay_fraction': 1.25, 'learning_rate_final_fraction': 0.08059905686377618, 'weight_decay': 8.271896538834887e-06, 'nmse_loss_weight': 0.26734213832907167, 'grad_clip_norm': 0.5, 'dropout': 0.00835121089124563, 'residual_scale': 0.44652798477643935, 'batch_size_train': 32, 'batch_size_eval': 32, 'learning_rate_polynomial_power': 1.0}
+[OPTUNA] exported best params: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/optuna/clean_b32_prb8_d256_40k_smart_u34610_1dmrs_stageA_wide_deep_d320_b6_r2_best_params.json

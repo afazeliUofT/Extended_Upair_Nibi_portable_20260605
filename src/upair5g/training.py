@@ -10,7 +10,7 @@ from typing import Any, Callable
 import numpy as np
 import tensorflow as tf
 
-from .builders import build_channel, build_ls_estimator, build_pusch_transmitter, extract_pilot_mask_per_stream, get_resource_grid, max_num_users, multiuser_enabled
+from .builders import build_channel, build_ls_estimator, build_pusch_transmitter, extract_true_dmrs_mask_per_stream, get_resource_grid, max_num_users, multiuser_enabled
 from .config import ensure_output_tree, get_cfg
 from .estimator import UPAIRChannelEstimator
 from .impairments import apply_rf_impairments_to_transmit_grid_if_enabled, apply_symbol_phase_impairment
@@ -110,7 +110,7 @@ def _build_system_for_num_users(cfg: dict[str, Any], num_users: int) -> dict[str
         "channel": channel,
         "ls_estimator": ls_estimator,
         "resource_grid": resource_grid,
-        "pilot_mask": extract_pilot_mask_per_stream(resource_grid),
+        "pilot_mask": extract_true_dmrs_mask_per_stream(tx, resource_grid),
     }
 
 
@@ -494,6 +494,7 @@ def train_model(
         ls_estimator=reference_system["ls_estimator"],
         resource_grid=reference_system["resource_grid"],
         cfg=cfg,
+        pilot_mask=reference_system["pilot_mask"],
     )
     optimizer = _make_optimizer(cfg)
 

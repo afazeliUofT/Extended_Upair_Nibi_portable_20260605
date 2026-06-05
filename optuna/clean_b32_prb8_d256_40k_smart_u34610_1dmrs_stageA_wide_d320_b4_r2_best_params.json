@@ -14,7 +14,7 @@
   "best_value": -1.6490093224920015,
   "completed_trials": 11,
   "failed_trials": 0,
-  "finished_trials": 19,
+  "finished_trials": 20,
   "fixed_constraints": {
     "clean_case": true,
     "dmrs_length": 1,
@@ -30,7 +30,7 @@
   "objective_metric": "hybrid_nmse_ratio",
   "objective_min_step_exclusive": 1000,
   "objective_recent_k": 2,
-  "pruned_trials": 8,
+  "pruned_trials": 9,
   "stage": "A",
   "steps": 4000,
   "study_name": "clean_b32_prb8_d256_40k_smart_u34610_1dmrs_stageA_wide_d320_b4_r2",

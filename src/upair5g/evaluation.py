@@ -19,7 +19,7 @@ from .baselines import (
     enabled_receivers_from_cfg,
     wants_receiver,
 )
-from .builders import build_channel, build_ls_estimator, build_pusch_transmitter, build_receiver, get_resource_grid, max_num_users, multiuser_enabled
+from .builders import build_channel, build_ls_estimator, build_pusch_transmitter, build_receiver, extract_true_dmrs_mask_per_stream, get_resource_grid, max_num_users, multiuser_enabled
 from .compat import safe_call_variants
 from .config import ensure_output_tree, get_cfg
 from .estimator import UPAIRChannelEstimator
@@ -604,8 +604,10 @@ def evaluate_model(cfg: dict[str, Any], checkpoint_path: str | None = None, num_
             f"batch_size_eval={eval_batch_size} receiver_microbatch_size={receiver_microbatch_size}"
         )
 
+    resource_grid = get_resource_grid(tx)
+    pilot_mask = extract_true_dmrs_mask_per_stream(tx, resource_grid)
     ls_estimator = build_ls_estimator(tx, cfg, interpolation_type="lin")
-    estimator = UPAIRChannelEstimator(ls_estimator=ls_estimator, resource_grid=get_resource_grid(tx), cfg=cfg)
+    estimator = UPAIRChannelEstimator(ls_estimator=ls_estimator, resource_grid=resource_grid, cfg=cfg, pilot_mask=pilot_mask)
 
     warmup_batch = _make_eval_batch(
         tx=tx,
