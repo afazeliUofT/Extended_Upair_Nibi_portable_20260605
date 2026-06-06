@@ -33,16 +33,4 @@ upair_freeze_fix_patch.sha256
 
 # UPAIR generated runtime outputs and patch scratch
 patch_backups/
-optuna/
-logs/
-TWC_plots_comprehensive/
-outputs/
-plots/
-metrics/
-checkpoints/
-artifacts/
-*.out
-*.err
-*.log
-
 _smoke_*/
