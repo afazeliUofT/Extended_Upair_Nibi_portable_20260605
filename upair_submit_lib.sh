@@ -2,6 +2,12 @@
 # Shared helpers for portable UPAIR Slurm wrappers.
 set -euo pipefail
 
+# Keep TensorFlow allocator dumps from flooding Slurm logs.
+# Real errors still surface as Python exceptions/Tracebacks.
+export TF_CPP_MIN_LOG_LEVEL="${TF_CPP_MIN_LOG_LEVEL:-2}"
+export TF_CPP_VMODULE="${TF_CPP_VMODULE:-bfc_allocator=0}"
+export TF_FORCE_GPU_ALLOW_GROWTH="${TF_FORCE_GPU_ALLOW_GROWTH:-true}"
+
 UPAIR_LIB_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # shellcheck disable=SC1091
 source "${UPAIR_LIB_ROOT}/upair_portable_env.sh"

@@ -205,10 +205,7 @@ evaluation:
   reliable_min_block_errors: 100
   reliable_min_bit_errors: 1000
   save_example_batch: false
-  nmse_receivers:
-  - baseline_ls_lmmse
-  - baseline_ls_2dlmmse_lmmse
-  - upair5g_lmmse
+  nmse_receivers: []
   memory_cleanup_every_batches: 1
   memory_cleanup_every_microbatch: true
   per_receiver_stopping: true
