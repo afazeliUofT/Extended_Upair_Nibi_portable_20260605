@@ -2,6 +2,11 @@
 # Submit final training jobs; each job automatically starts evaluation after training.
 # This wrapper deliberately requires fresh external Stage-B Optuna best JSON/DBs.
 set -euo pipefail
+# Explicit TensorFlow evaluation-memory environment.
+export TF_CPP_MIN_LOG_LEVEL="${TF_CPP_MIN_LOG_LEVEL:-2}"
+export TF_CPP_VMODULE="${TF_CPP_VMODULE:-bfc_allocator=0}"
+export TF_FORCE_GPU_ALLOW_GROWTH="${TF_FORCE_GPU_ALLOW_GROWTH:-true}"
+export TF_GPU_ALLOCATOR="${TF_GPU_ALLOCATOR:-cuda_malloc_async}"
 
 # Keep TensorFlow allocator dumps from flooding Slurm logs.
 # Real errors still surface as Python exceptions/Tracebacks.
@@ -55,6 +60,11 @@ while IFS= read -r variant; do
   upair_write_sbatch_header "${jobfile}" "${job}" "${TIME_LIMIT}" "${log}"
   cat >> "${jobfile}" <<SBATCH
 set -euo pipefail
+# Explicit TensorFlow evaluation-memory environment.
+export TF_CPP_MIN_LOG_LEVEL="${TF_CPP_MIN_LOG_LEVEL:-2}"
+export TF_CPP_VMODULE="${TF_CPP_VMODULE:-bfc_allocator=0}"
+export TF_FORCE_GPU_ALLOW_GROWTH="${TF_FORCE_GPU_ALLOW_GROWTH:-true}"
+export TF_GPU_ALLOCATOR="${TF_GPU_ALLOCATOR:-cuda_malloc_async}"
 cd "${UPAIR_REPO_ROOT}"
 source "${UPAIR_REPO_ROOT}/upair_portable_env.sh"
 upair_activate

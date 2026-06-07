@@ -327,3 +327,31 @@ WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objec
 [TRAIN] step=24000 loss=-3.10707 nmse_prop=0.01939 nmse_ls=0.04740 lr=3.503e-04 step_time=120.434s steps_per_s=2.059 gpu_mem=0.16GiB peak=4.01GiB
 [TRAIN] saved resumable state at step=24000 reason=periodic: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/TWC_plots_comprehensive/runs_rx16/seed7/1dmrs/shallow_d256_b2_r2/checkpoints/training_state/ckpt-24000
 [TRAIN] step=24100 loss=-2.42930 nmse_prop=0.03393 nmse_ls=0.16071 lr=3.483e-04 step_time=0.384s steps_per_s=2.059 gpu_mem=0.16GiB peak=4.01GiB
+[TRAIN] step=24200 loss=-3.02631 nmse_prop=0.02081 nmse_ls=0.04920 lr=3.463e-04 step_time=0.493s steps_per_s=2.061 gpu_mem=0.16GiB peak=4.01GiB
+[TRAIN] step=24300 loss=-2.19988 nmse_prop=0.04219 nmse_ls=0.22685 lr=3.443e-04 step_time=0.284s steps_per_s=2.062 gpu_mem=0.16GiB peak=4.01GiB
+[TRAIN] step=24400 loss=-3.05528 nmse_prop=0.01894 nmse_ls=0.05520 lr=3.423e-04 step_time=0.509s steps_per_s=2.063 gpu_mem=0.16GiB peak=4.01GiB
+[TRAIN] step=24500 loss=-2.92061 nmse_prop=0.02150 nmse_ls=0.08592 lr=3.403e-04 step_time=0.280s steps_per_s=2.064 gpu_mem=0.16GiB peak=4.01GiB
+[TRAIN] step=24600 loss=-2.53652 nmse_prop=0.03084 nmse_ls=0.13082 lr=3.383e-04 step_time=0.389s steps_per_s=2.065 gpu_mem=0.16GiB peak=4.01GiB
+[TRAIN] step=24700 loss=-3.35449 nmse_prop=0.01507 nmse_ls=0.04252 lr=3.364e-04 step_time=0.192s steps_per_s=2.066 gpu_mem=0.16GiB peak=4.01GiB
+[TRAIN] step=24800 loss=-2.67201 nmse_prop=0.02720 nmse_ls=0.09772 lr=3.344e-04 step_time=0.489s steps_per_s=2.068 gpu_mem=0.16GiB peak=4.01GiB
+[TRAIN] step=24900 loss=-3.04602 nmse_prop=0.01990 nmse_ls=0.05040 lr=3.324e-04 step_time=0.496s steps_per_s=2.069 gpu_mem=0.16GiB peak=4.01GiB
+[TRAIN] step=25000 loss=-3.11235 nmse_prop=0.01939 nmse_ls=0.04345 lr=3.305e-04 step_time=0.397s steps_per_s=2.070 gpu_mem=0.16GiB peak=4.01GiB
+[TRAIN] saved resumable state at step=25000 reason=periodic: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/TWC_plots_comprehensive/runs_rx16/seed7/1dmrs/shallow_d256_b2_r2/checkpoints/training_state/ckpt-25000
+[TRAIN] step=25100 loss=-2.11415 nmse_prop=0.04585 nmse_ls=0.23192 lr=3.285e-04 step_time=0.486s steps_per_s=2.071 gpu_mem=0.16GiB peak=4.01GiB
+[TRAIN] step=25200 loss=-2.19052 nmse_prop=0.04280 nmse_ls=0.20405 lr=3.266e-04 step_time=0.487s steps_per_s=2.072 gpu_mem=0.16GiB peak=4.01GiB
+[TRAIN] step=25300 loss=-2.71062 nmse_prop=0.02650 nmse_ls=0.09907 lr=3.246e-04 step_time=0.394s steps_per_s=2.073 gpu_mem=0.16GiB peak=4.01GiB
+[TRAIN] step=25400 loss=-3.23620 nmse_prop=0.01623 nmse_ls=0.05368 lr=3.227e-04 step_time=0.281s steps_per_s=2.074 gpu_mem=0.16GiB peak=4.01GiB
+[TRAIN] step=25500 loss=-2.76014 nmse_prop=0.02515 nmse_ls=0.08338 lr=3.207e-04 step_time=0.485s steps_per_s=2.075 gpu_mem=0.16GiB peak=4.01GiB
+[TRAIN] step=25600 loss=-2.97867 nmse_prop=0.02130 nmse_ls=0.05714 lr=3.188e-04 step_time=0.506s steps_per_s=2.076 gpu_mem=0.16GiB peak=4.01GiB
+[TRAIN] step=25700 loss=-2.04447 nmse_prop=0.04877 nmse_ls=0.25953 lr=3.169e-04 step_time=0.510s steps_per_s=2.077 gpu_mem=0.16GiB peak=4.01GiB
+[TRAIN] step=25800 loss=-2.13106 nmse_prop=0.04522 nmse_ls=0.21332 lr=3.150e-04 step_time=0.498s steps_per_s=2.078 gpu_mem=0.16GiB peak=4.01GiB
+[TRAIN] step=25900 loss=-3.13629 nmse_prop=0.01840 nmse_ls=0.04447 lr=3.131e-04 step_time=0.494s steps_per_s=2.079 gpu_mem=0.16GiB peak=4.01GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=26000 val_nmse=0.0254035
+[TRAIN] step=26000 loss=-2.58378 nmse_prop=0.02997 nmse_ls=0.13429 lr=3.112e-04 step_time=115.398s steps_per_s=2.061 gpu_mem=0.16GiB peak=4.01GiB
+[TRAIN] saved resumable state at step=26000 reason=periodic: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/TWC_plots_comprehensive/runs_rx16/seed7/1dmrs/shallow_d256_b2_r2/checkpoints/training_state/ckpt-26000
+[TRAIN] step=26100 loss=-2.11919 nmse_prop=0.04568 nmse_ls=0.21794 lr=3.093e-04 step_time=0.496s steps_per_s=2.061 gpu_mem=0.16GiB peak=4.01GiB
+[TRAIN] step=26200 loss=-2.77355 nmse_prop=0.02492 nmse_ls=0.08957 lr=3.074e-04 step_time=0.374s steps_per_s=2.062 gpu_mem=0.16GiB peak=4.01GiB
+[TRAIN] step=26300 loss=-2.76096 nmse_prop=0.02516 nmse_ls=0.08304 lr=3.056e-04 step_time=0.481s steps_per_s=2.064 gpu_mem=0.16GiB peak=4.01GiB
+[TRAIN] step=26400 loss=-2.99501 nmse_prop=0.02092 nmse_ls=0.05742 lr=3.037e-04 step_time=0.492s steps_per_s=2.065 gpu_mem=0.16GiB peak=4.01GiB

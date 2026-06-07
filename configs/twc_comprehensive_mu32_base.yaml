@@ -189,9 +189,9 @@ training:
   val_snr_sampling_mode: sampled_grid
 evaluation:
   resume: true
-  receiver_microbatch_size: 16
+  receiver_microbatch_size: 8
   stream_eval_microbatches: true
-  compiled_receiver_error_counts: true
+  compiled_receiver_error_counts: false
   receiver_call_jit_compile: false
   num_batches_per_point: 512
   min_num_batches_per_point: 16

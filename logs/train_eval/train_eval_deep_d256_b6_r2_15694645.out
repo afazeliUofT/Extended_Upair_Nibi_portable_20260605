@@ -214,3 +214,25 @@ WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objec
 [TRAIN] step=14400 loss=-3.07715 nmse_prop=0.01907 nmse_ls=0.06102 lr=6.359e-04 step_time=0.481s steps_per_s=1.585 gpu_mem=0.23GiB peak=11.03GiB
 [TRAIN] step=14500 loss=-2.50448 nmse_prop=0.03253 nmse_ls=0.12376 lr=6.302e-04 step_time=0.574s steps_per_s=1.588 gpu_mem=0.23GiB peak=11.03GiB
 [TRAIN] step=14600 loss=-3.29028 nmse_prop=0.01675 nmse_ls=0.03959 lr=6.246e-04 step_time=0.488s steps_per_s=1.590 gpu_mem=0.23GiB peak=11.03GiB
+[TRAIN] step=14700 loss=-2.82268 nmse_prop=0.02389 nmse_ls=0.08150 lr=6.190e-04 step_time=0.586s steps_per_s=1.592 gpu_mem=0.23GiB peak=11.03GiB
+[TRAIN] step=14800 loss=-3.23413 nmse_prop=0.01782 nmse_ls=0.04785 lr=6.134e-04 step_time=0.377s steps_per_s=1.594 gpu_mem=0.23GiB peak=11.03GiB
+[TRAIN] step=14900 loss=-2.85519 nmse_prop=0.02336 nmse_ls=0.07705 lr=6.078e-04 step_time=0.597s steps_per_s=1.596 gpu_mem=0.23GiB peak=11.03GiB
+[TRAIN] step=15000 loss=-3.52479 nmse_prop=0.01391 nmse_ls=0.03711 lr=6.021e-04 step_time=0.275s steps_per_s=1.598 gpu_mem=0.23GiB peak=11.03GiB
+[TRAIN] saved resumable state at step=15000 reason=periodic: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/TWC_plots_comprehensive/runs_rx16/seed7/1dmrs/deep_d256_b6_r2/checkpoints/training_state/ckpt-15000
+[TRAIN] step=15100 loss=-3.20624 nmse_prop=0.01821 nmse_ls=0.03989 lr=5.965e-04 step_time=0.581s steps_per_s=1.599 gpu_mem=0.23GiB peak=11.03GiB
+[TRAIN] step=15200 loss=-3.19268 nmse_prop=0.01894 nmse_ls=0.04525 lr=5.909e-04 step_time=0.470s steps_per_s=1.601 gpu_mem=0.23GiB peak=11.03GiB
+[TRAIN] step=15300 loss=-3.01603 nmse_prop=0.02184 nmse_ls=0.05783 lr=5.853e-04 step_time=0.473s steps_per_s=1.603 gpu_mem=0.23GiB peak=11.03GiB
+[TRAIN] step=15400 loss=-3.50637 nmse_prop=0.01349 nmse_ls=0.03645 lr=5.797e-04 step_time=0.376s steps_per_s=1.604 gpu_mem=0.23GiB peak=11.03GiB
+[TRAIN] step=15500 loss=-2.37493 nmse_prop=0.03582 nmse_ls=0.18172 lr=5.741e-04 step_time=0.480s steps_per_s=1.606 gpu_mem=0.23GiB peak=11.03GiB
+[TRAIN] step=15600 loss=-3.04446 nmse_prop=0.02137 nmse_ls=0.06740 lr=5.684e-04 step_time=0.375s steps_per_s=1.608 gpu_mem=0.23GiB peak=11.03GiB
+[TRAIN] step=15700 loss=-3.41469 nmse_prop=0.01512 nmse_ls=0.03518 lr=5.628e-04 step_time=0.473s steps_per_s=1.610 gpu_mem=0.23GiB peak=11.03GiB
+[TRAIN] step=15800 loss=-2.67386 nmse_prop=0.02806 nmse_ls=0.09940 lr=5.572e-04 step_time=0.590s steps_per_s=1.611 gpu_mem=0.23GiB peak=11.03GiB
+[TRAIN] step=15900 loss=-3.28127 nmse_prop=0.01687 nmse_ls=0.05304 lr=5.516e-04 step_time=0.382s steps_per_s=1.613 gpu_mem=0.23GiB peak=11.03GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=16000 val_nmse=0.0240876
+[TRAIN] step=16000 loss=-2.93161 nmse_prop=0.02256 nmse_ls=0.07371 lr=5.460e-04 step_time=223.709s steps_per_s=1.579 gpu_mem=0.23GiB peak=11.03GiB
+[TRAIN] saved resumable state at step=16000 reason=periodic: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/TWC_plots_comprehensive/runs_rx16/seed7/1dmrs/deep_d256_b6_r2/checkpoints/training_state/ckpt-16000
+[TRAIN] step=16100 loss=-3.11204 nmse_prop=0.01972 nmse_ls=0.05601 lr=5.404e-04 step_time=0.478s steps_per_s=1.580 gpu_mem=0.23GiB peak=11.03GiB
+[TRAIN] step=16200 loss=-2.21508 nmse_prop=0.04167 nmse_ls=0.24247 lr=5.349e-04 step_time=0.472s steps_per_s=1.582 gpu_mem=0.23GiB peak=11.03GiB
+[TRAIN] step=16300 loss=-2.47193 nmse_prop=0.03333 nmse_ls=0.14117 lr=5.293e-04 step_time=0.586s steps_per_s=1.583 gpu_mem=0.23GiB peak=11.03GiB

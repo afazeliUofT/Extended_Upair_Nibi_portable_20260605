@@ -1,6 +1,11 @@
 #!/usr/bin/env bash
 # Shared helpers for portable UPAIR Slurm wrappers.
 set -euo pipefail
+# Explicit TensorFlow evaluation-memory environment.
+export TF_CPP_MIN_LOG_LEVEL="${TF_CPP_MIN_LOG_LEVEL:-2}"
+export TF_CPP_VMODULE="${TF_CPP_VMODULE:-bfc_allocator=0}"
+export TF_FORCE_GPU_ALLOW_GROWTH="${TF_FORCE_GPU_ALLOW_GROWTH:-true}"
+export TF_GPU_ALLOCATOR="${TF_GPU_ALLOCATOR:-cuda_malloc_async}"
 
 # Keep TensorFlow allocator dumps from flooding Slurm logs.
 # Real errors still surface as Python exceptions/Tracebacks.

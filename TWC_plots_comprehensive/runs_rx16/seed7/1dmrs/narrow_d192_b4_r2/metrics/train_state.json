@@ -1,26 +1,26 @@
 {
-  "best_val": 0.027341409562116798,
+  "best_val": 0.02709455109046151,
   "best_weights_path": "/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/TWC_plots_comprehensive/runs_rx16/seed7/1dmrs/narrow_d192_b4_r2/checkpoints/best.weights.h5",
   "checkpoint_metrics": {
-    "last_loss": -3.2466447353363037,
-    "last_nmse_ls": 0.037408847361803055,
-    "last_nmse_prop": 0.017926163971424103
+    "last_loss": -2.5207605361938477,
+    "last_nmse_ls": 0.12228365242481232,
+    "last_nmse_prop": 0.03142976015806198
   },
   "last_metrics": {
-    "ebno_db": 4.627338409423828,
+    "ebno_db": -2.376375198364258,
     "learning_rate": 0.0008722091442905366,
-    "loss": -3.2466447353363037,
-    "loss_nll": -3.2532474994659424,
-    "nmse_ls": 0.037408847361803055,
-    "nmse_prop": 0.017926163971424103,
-    "num_users": 1,
-    "step": 15000,
-    "step_elapsed_s": 0.2191228624433279,
-    "steps_per_s": 1.854211366685249,
-    "training_elapsed_s": 8089.692615149543
+    "loss": -2.5207605361938477,
+    "loss_nll": -2.532337188720703,
+    "nmse_ls": 0.12228365242481232,
+    "nmse_prop": 0.03142976015806198,
+    "num_users": 3,
+    "step": 17000,
+    "step_elapsed_s": 0.42139799520373344,
+    "steps_per_s": 1.8521130268158381,
+    "training_elapsed_s": 9178.705486039631
   },
-  "latest_step": 15000,
-  "latest_training_state_checkpoint": "/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/TWC_plots_comprehensive/runs_rx16/seed7/1dmrs/narrow_d192_b4_r2/checkpoints/training_state/ckpt-15000",
+  "latest_step": 17000,
+  "latest_training_state_checkpoint": "/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/TWC_plots_comprehensive/runs_rx16/seed7/1dmrs/narrow_d192_b4_r2/checkpoints/training_state/ckpt-17000",
   "resume_enabled": true,
   "save_reason": "periodic",
   "total_steps": 40000,
