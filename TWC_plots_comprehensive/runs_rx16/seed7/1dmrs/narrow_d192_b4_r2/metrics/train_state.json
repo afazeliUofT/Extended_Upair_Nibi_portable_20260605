@@ -1,0 +1,55 @@
+{
+  "best_val": 0.03212220795103349,
+  "best_weights_path": "/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/TWC_plots_comprehensive/runs_rx16/seed7/1dmrs/narrow_d192_b4_r2/checkpoints/best.weights.h5",
+  "checkpoint_metrics": {
+    "last_loss": -2.8774497509002686,
+    "last_nmse_ls": 0.0516439825296402,
+    "last_nmse_prop": 0.02380276843905449
+  },
+  "last_metrics": {
+    "ebno_db": 2.5835886001586914,
+    "learning_rate": 0.0008722091442905366,
+    "loss": -2.8774497509002686,
+    "loss_nll": -2.8862171173095703,
+    "nmse_ls": 0.0516439825296402,
+    "nmse_prop": 0.02380276843905449,
+    "num_users": 4,
+    "step": 3000,
+    "step_elapsed_s": 0.5252467971295118,
+    "steps_per_s": 1.8683933867012892,
+    "training_elapsed_s": 1605.6575779775158
+  },
+  "latest_step": 3000,
+  "latest_training_state_checkpoint": "/scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/TWC_plots_comprehensive/runs_rx16/seed7/1dmrs/narrow_d192_b4_r2/checkpoints/training_state/ckpt-3000",
+  "resume_enabled": true,
+  "save_reason": "periodic",
+  "total_steps": 40000,
+  "training_complete": false,
+  "training_parameters": {
+    "batch_size_eval": 32,
+    "batch_size_train": 32,
+    "current_learning_rate": 0.0008722091442905366,
+    "eval_every": 2000,
+    "evaluation_seed": 1007,
+    "grad_clip_norm": 0.5,
+    "learning_rate": 0.0008722091201558823,
+    "learning_rate_schedule": {
+      "decay_rate": 0.96,
+      "decay_steps": 40000.0,
+      "final_fraction": 0.05,
+      "learning_rate": 0.0008722091201558823,
+      "polynomial_power": 1.0,
+      "restart_first_decay_steps": 2500.0,
+      "restart_m_mul": 0.8,
+      "restart_t_mul": 2.0,
+      "schedule": "constant"
+    },
+    "memory_cleanup_every_steps": 100,
+    "nmse_loss_weight": 0.36833494384383136,
+    "seed": 7,
+    "training_seed": 7,
+    "val_microbatch_size": 16,
+    "val_steps": 96,
+    "weight_decay": 2.363899423796963e-06
+  }
+}

@@ -1,0 +1,82 @@
+[ENV] Reusing portable venv: /home/rsadve1/scratch/.vevn_upair_potable
+[ENV] Checking installed package metadata only; TensorFlow/Sionna are not imported here.
+[ENV] Python 3.11.5
+[ENV] numpy 1.26.4+computecanada
+[ENV] pandas 2.2.3+computecanada
+[ENV] matplotlib 3.10.0+computecanada
+[ENV] PyYAML 6.0.2+computecanada
+[ENV] scipy 1.15.1+computecanada
+[ENV] tensorflow 2.15.1+computecanada
+[ENV] sionna-no-rt 1.2.1
+[ENV] optuna 4.8.0+computecanada
+[ENV] Skipping TensorFlow/Sionna import check on this node. Set UPAIR_DEEP_IMPORT_CHECK=1 to test imports explicitly.
+[ENV] Ready: REPO=/home/rsadve1/scratch/Extended_UPAIR_Narval_b32m16_portable
+[ENV] Ready: VENV=/home/rsadve1/scratch/.vevn_upair_potable
+2026-06-07 15:44:47.791214: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-06-07 15:44:47.822046: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-06-07 15:44:47.822078: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-06-07 15:44:47.823026: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-06-07 15:44:47.827740: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[COMPREHENSIVE] loaded Optuna best JSON for narrow_d192_b4_r2 from /home/rsadve1/scratch/Extended_UPAIR_Narval_b32m16_portable/optuna/clean_b32_prb8_d256_40k_smart_trueDMRS_u34610_1dmrs_stageB_narrow_d192_b4_r2_best_params.json
+2026-06-07 15:44:57.676611: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2348] TensorFlow was not built with CUDA kernel binaries compatible with compute capability 9.0. CUDA kernels will be jit-compiled from PTX, which could take 30 minutes or longer.
+2026-06-07 15:44:57.682274: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2348] TensorFlow was not built with CUDA kernel binaries compatible with compute capability 9.0. CUDA kernels will be jit-compiled from PTX, which could take 30 minutes or longer.
+2026-06-07 15:44:57.825461: W tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:47] Overriding orig_value setting because the TF_FORCE_GPU_ALLOW_GROWTH environment variable is set. Original config value was 0.
+2026-06-07 15:44:57.826487: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1929] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 78752 MB memory:  -> device: 0, name: NVIDIA H100 80GB HBM3, pci bus id: 0000:cb:00.0, compute capability: 9.0
+2026-06-07 15:45:04.182337: I external/local_tsl/tsl/platform/default/subprocess.cc:304] Start cannot spawn child process: No such file or directory
+[TRAIN] optimizer lr_schedule=constant learning_rate=0.000872209 weight_decay=2.3639e-06
+[TRAIN] seeds active_seed=7 training_seed=7 evaluation_seed=1007
+[TRAIN] starting from scratch
+2026-06-07 15:49:28.297539: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:961] layout failed: INVALID_ARGUMENT: Size of values 0 does not match size of permutation 4 @ fanin shape inaxial_block_0/dropout/dropout_2/SelectV2-2-TransposeNHWCToNCHW-LayoutOptimizer
+2026-06-07 15:49:59.475898: I external/local_xla/xla/service/service.cc:168] XLA service 0x153ae6f03390 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2026-06-07 15:49:59.477952: I external/local_xla/xla/service/service.cc:176]   StreamExecutor device (0): NVIDIA H100 80GB HBM3, Compute Capability 9.0
+2026-06-07 15:49:59.481904: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+2026-06-07 15:50:02.660290: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:454] Loaded cuDNN version 8905
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780861802.734618 1048656 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+[TRAIN] step=00001 loss=-0.84252 nmse_prop=0.14848 nmse_ls=0.14848 lr=8.722e-04 step_time=48.334s steps_per_s=0.021 gpu_mem=0.08GiB peak=5.57GiB
+2026-06-07 15:50:33.389392: E tensorflow/core/grappler/optimizers/meta_optimizer.cc:961] layout failed: INVALID_ARGUMENT: Size of values 0 does not match size of permutation 4 @ fanin shape inaxial_block_0/dropout/dropout_2/SelectV2-2-TransposeNHWCToNCHW-LayoutOptimizer
+[TRAIN] step=00100 loss=-1.47170 nmse_prop=0.08178 nmse_ls=0.09641 lr=8.722e-04 step_time=0.528s steps_per_s=0.898 gpu_mem=0.15GiB peak=5.79GiB
+[TRAIN] step=00200 loss=-1.42981 nmse_prop=0.08241 nmse_ls=0.11433 lr=8.722e-04 step_time=0.530s steps_per_s=1.290 gpu_mem=0.15GiB peak=5.79GiB
+[TRAIN] step=00300 loss=-1.79636 nmse_prop=0.06059 nmse_ls=0.09164 lr=8.722e-04 step_time=0.526s steps_per_s=1.501 gpu_mem=0.15GiB peak=5.79GiB
+[TRAIN] step=00400 loss=-1.87689 nmse_prop=0.05583 nmse_ls=0.09443 lr=8.722e-04 step_time=0.524s steps_per_s=1.630 gpu_mem=0.15GiB peak=5.79GiB
+[TRAIN] step=00500 loss=-1.78878 nmse_prop=0.06197 nmse_ls=0.13386 lr=8.722e-04 step_time=0.425s steps_per_s=1.716 gpu_mem=0.15GiB peak=5.79GiB
+[TRAIN] step=00600 loss=-2.66104 nmse_prop=0.02777 nmse_ls=0.04494 lr=8.722e-04 step_time=0.425s steps_per_s=1.791 gpu_mem=0.15GiB peak=5.79GiB
+[TRAIN] step=00700 loss=-2.31808 nmse_prop=0.03786 nmse_ls=0.08248 lr=8.722e-04 step_time=0.418s steps_per_s=1.844 gpu_mem=0.15GiB peak=5.79GiB
+[TRAIN] step=00800 loss=-2.65941 nmse_prop=0.02815 nmse_ls=0.05304 lr=8.722e-04 step_time=0.413s steps_per_s=1.879 gpu_mem=0.15GiB peak=5.79GiB
+[TRAIN] step=00900 loss=-2.82114 nmse_prop=0.02414 nmse_ls=0.03679 lr=8.722e-04 step_time=0.525s steps_per_s=1.912 gpu_mem=0.15GiB peak=5.82GiB
+[TRAIN] step=01000 loss=-2.13515 nmse_prop=0.04467 nmse_ls=0.11604 lr=8.722e-04 step_time=0.216s steps_per_s=1.936 gpu_mem=0.15GiB peak=5.82GiB
+[TRAIN] saved resumable state at step=1000 reason=periodic: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/TWC_plots_comprehensive/runs_rx16/seed7/1dmrs/narrow_d192_b4_r2/checkpoints/training_state/ckpt-1000
+[TRAIN] step=01100 loss=-2.53957 nmse_prop=0.03131 nmse_ls=0.07731 lr=8.722e-04 step_time=0.420s steps_per_s=1.946 gpu_mem=0.15GiB peak=5.82GiB
+[TRAIN] step=01200 loss=-1.75859 nmse_prop=0.06521 nmse_ls=0.18682 lr=8.722e-04 step_time=0.530s steps_per_s=1.970 gpu_mem=0.15GiB peak=5.82GiB
+[TRAIN] step=01300 loss=-2.34974 nmse_prop=0.03720 nmse_ls=0.09013 lr=8.722e-04 step_time=0.525s steps_per_s=1.986 gpu_mem=0.15GiB peak=5.82GiB
+[TRAIN] step=01400 loss=-2.82169 nmse_prop=0.02450 nmse_ls=0.05601 lr=8.722e-04 step_time=0.317s steps_per_s=2.002 gpu_mem=0.15GiB peak=5.82GiB
+[TRAIN] step=01500 loss=-2.02189 nmse_prop=0.04992 nmse_ls=0.13939 lr=8.722e-04 step_time=0.530s steps_per_s=2.014 gpu_mem=0.15GiB peak=5.82GiB
+[TRAIN] step=01600 loss=-3.02544 nmse_prop=0.02074 nmse_ls=0.04200 lr=8.722e-04 step_time=0.417s steps_per_s=2.024 gpu_mem=0.15GiB peak=5.82GiB
+[TRAIN] step=01700 loss=-2.72108 nmse_prop=0.02679 nmse_ls=0.06695 lr=8.722e-04 step_time=0.317s steps_per_s=2.033 gpu_mem=0.15GiB peak=5.82GiB
+[TRAIN] step=01800 loss=-2.25380 nmse_prop=0.04084 nmse_ls=0.12314 lr=8.722e-04 step_time=0.426s steps_per_s=2.043 gpu_mem=0.15GiB peak=5.82GiB
+[TRAIN] step=01900 loss=-2.22200 nmse_prop=0.04191 nmse_ls=0.13185 lr=8.722e-04 step_time=0.425s steps_per_s=2.047 gpu_mem=0.15GiB peak=5.82GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=2000 val_nmse=0.0321222
+[TRAIN] step=02000 loss=-1.92761 nmse_prop=0.05550 nmse_ls=0.17396 lr=8.722e-04 step_time=176.684s steps_per_s=1.742 gpu_mem=0.16GiB peak=5.82GiB
+[TRAIN] saved resumable state at step=2000 reason=periodic: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/TWC_plots_comprehensive/runs_rx16/seed7/1dmrs/narrow_d192_b4_r2/checkpoints/training_state/ckpt-2000
+[TRAIN] step=02100 loss=-2.68563 nmse_prop=0.02805 nmse_ls=0.05920 lr=8.722e-04 step_time=0.223s steps_per_s=1.758 gpu_mem=0.16GiB peak=5.82GiB
+[TRAIN] step=02200 loss=-2.28810 nmse_prop=0.03985 nmse_ls=0.11208 lr=8.722e-04 step_time=0.524s steps_per_s=1.774 gpu_mem=0.16GiB peak=5.82GiB
+[TRAIN] step=02300 loss=-2.85424 nmse_prop=0.02376 nmse_ls=0.05086 lr=8.722e-04 step_time=0.526s steps_per_s=1.788 gpu_mem=0.16GiB peak=5.82GiB
+[TRAIN] step=02400 loss=-3.02715 nmse_prop=0.02124 nmse_ls=0.04165 lr=8.722e-04 step_time=0.421s steps_per_s=1.802 gpu_mem=0.16GiB peak=5.82GiB
+[TRAIN] step=02500 loss=-2.72085 nmse_prop=0.02642 nmse_ls=0.06473 lr=8.722e-04 step_time=0.215s steps_per_s=1.815 gpu_mem=0.17GiB peak=5.82GiB
+[TRAIN] step=02600 loss=-1.86701 nmse_prop=0.05790 nmse_ls=0.23540 lr=8.722e-04 step_time=0.417s steps_per_s=1.828 gpu_mem=0.16GiB peak=5.82GiB
+[TRAIN] step=02700 loss=-2.71149 nmse_prop=0.02706 nmse_ls=0.06479 lr=8.722e-04 step_time=0.538s steps_per_s=1.838 gpu_mem=0.17GiB peak=5.82GiB
+[TRAIN] step=02800 loss=-2.19983 nmse_prop=0.04251 nmse_ls=0.14569 lr=8.722e-04 step_time=0.529s steps_per_s=1.847 gpu_mem=0.17GiB peak=5.82GiB
+[TRAIN] step=02900 loss=-2.00056 nmse_prop=0.05109 nmse_ls=0.20291 lr=8.722e-04 step_time=0.313s steps_per_s=1.858 gpu_mem=0.17GiB peak=5.82GiB
+[TRAIN] step=03000 loss=-2.87745 nmse_prop=0.02380 nmse_ls=0.05164 lr=8.722e-04 step_time=0.525s steps_per_s=1.868 gpu_mem=0.17GiB peak=5.84GiB
+[TRAIN] saved resumable state at step=3000 reason=periodic: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/TWC_plots_comprehensive/runs_rx16/seed7/1dmrs/narrow_d192_b4_r2/checkpoints/training_state/ckpt-3000
+[TRAIN] step=03100 loss=-2.86380 nmse_prop=0.02363 nmse_ls=0.05584 lr=8.722e-04 step_time=0.418s steps_per_s=1.872 gpu_mem=0.17GiB peak=5.84GiB
+[TRAIN] step=03200 loss=-2.48510 nmse_prop=0.03291 nmse_ls=0.10406 lr=8.722e-04 step_time=0.313s steps_per_s=1.882 gpu_mem=0.17GiB peak=5.84GiB
+[TRAIN] step=03300 loss=-1.93885 nmse_prop=0.05408 nmse_ls=0.21982 lr=8.722e-04 step_time=0.425s steps_per_s=1.891 gpu_mem=0.17GiB peak=5.84GiB
+[TRAIN] step=03400 loss=-2.77171 nmse_prop=0.02502 nmse_ls=0.06650 lr=8.722e-04 step_time=0.422s steps_per_s=1.899 gpu_mem=0.17GiB peak=5.84GiB
+[TRAIN] step=03500 loss=-2.84107 nmse_prop=0.02355 nmse_ls=0.05949 lr=8.722e-04 step_time=0.423s steps_per_s=1.906 gpu_mem=0.16GiB peak=5.84GiB
+[TRAIN] step=03600 loss=-2.90270 nmse_prop=0.02287 nmse_ls=0.05014 lr=8.722e-04 step_time=0.427s steps_per_s=1.913 gpu_mem=0.17GiB peak=5.84GiB
+[TRAIN] step=03700 loss=-1.90994 nmse_prop=0.05554 nmse_ls=0.22997 lr=8.722e-04 step_time=0.418s steps_per_s=1.919 gpu_mem=0.17GiB peak=5.84GiB
+[TRAIN] step=03800 loss=-3.10094 nmse_prop=0.01912 nmse_ls=0.03913 lr=8.722e-04 step_time=0.216s steps_per_s=1.926 gpu_mem=0.17GiB peak=5.84GiB
