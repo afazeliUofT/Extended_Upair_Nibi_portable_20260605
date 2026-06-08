@@ -34,3 +34,7 @@ upair_freeze_fix_patch.sha256
 # UPAIR generated runtime outputs and patch scratch
 patch_backups/
 _smoke_*/
+_isolated_eval_chunks/
+logs/eval_iso/
+_stress_cdl_eval_memory/
+_stress_cdl_eval_one_receiver/
