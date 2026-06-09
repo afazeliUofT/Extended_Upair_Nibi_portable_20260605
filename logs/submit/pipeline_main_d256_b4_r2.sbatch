@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #SBATCH --job-name=upairP-main_d256_b4_
-#SBATCH --time=24:00:00
+#SBATCH --time=30:00:00
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=32G
 #SBATCH --output=/home/rsadve1/scratch/Extended_UPAIR_Narval_b32m16_portable/logs/pipeline/pipeline_main_d256_b4_r2_%j.out
@@ -22,13 +22,13 @@ export UPAIR_CONFIG=""
 export UPAIR_DMRS_CASE="1dmrs"
 export UPAIR_SEED="7"
 export UPAIR_OPTUNA_STAGEB_PREFIX="clean_b32_prb8_d256_40k_smart_trueDMRS_u34610_1dmrs_stageB"
-export UPAIR_PIPELINE_RECEIVERS=""
-export UPAIR_PIPELINE_USERS=""
-export UPAIR_PIPELINE_EBNOS=""
+export UPAIR_PIPELINE_RECEIVERS="baseline_ls_2dlmmse_lmmse,upair5g_lmmse,perfect_csi_lmmse"
+export UPAIR_PIPELINE_USERS="1"
+export UPAIR_PIPELINE_EBNOS="-4,-3"
 export UPAIR_PIPELINE_CHUNK_BATCHES="20"
 export UPAIR_PIPELINE_MICRO="8"
-export UPAIR_PIPELINE_TARGET_BLOCK_ERRORS=""
-export UPAIR_PIPELINE_MAX_BATCHES=""
+export UPAIR_PIPELINE_TARGET_BLOCK_ERRORS="100"
+export UPAIR_PIPELINE_MAX_BATCHES="2000"
 export UPAIR_PIPELINE_MIN_BATCHES=""
 
 bash "/home/rsadve1/scratch/Extended_UPAIR_Narval_b32m16_portable/upair_variant_pipeline_worker.sh" "main_d256_b4_r2"
