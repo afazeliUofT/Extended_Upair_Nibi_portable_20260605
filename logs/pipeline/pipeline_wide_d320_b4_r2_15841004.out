@@ -211,3 +211,218 @@ WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objec
 [TRAIN] step=13400 loss=-2.92424 nmse_prop=0.02208 nmse_ls=0.06830 lr=5.362e-04 step_time=0.565s steps_per_s=1.775 gpu_mem=0.19GiB peak=8.78GiB
 [TRAIN] step=13500 loss=-2.90506 nmse_prop=0.02267 nmse_ls=0.09759 lr=5.340e-04 step_time=0.354s steps_per_s=1.777 gpu_mem=0.19GiB peak=8.78GiB
 [TRAIN] step=13600 loss=-3.14523 nmse_prop=0.01885 nmse_ls=0.04690 lr=5.317e-04 step_time=0.564s steps_per_s=1.778 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=13700 loss=-3.00842 nmse_prop=0.02118 nmse_ls=0.05792 lr=5.295e-04 step_time=0.545s steps_per_s=1.780 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=13800 loss=-2.55442 nmse_prop=0.03088 nmse_ls=0.12017 lr=5.272e-04 step_time=0.566s steps_per_s=1.782 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=13900 loss=-2.94315 nmse_prop=0.02255 nmse_ls=0.08925 lr=5.250e-04 step_time=0.254s steps_per_s=1.783 gpu_mem=0.19GiB peak=8.78GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=14000 val_nmse=0.0238395
+[TRAIN] step=14000 loss=-2.38548 nmse_prop=0.03618 nmse_ls=0.15965 lr=5.227e-04 step_time=147.316s steps_per_s=1.752 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] saved resumable state at step=14000 reason=periodic: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/TWC_plots_comprehensive/runs_rx16/seed7/1dmrs/wide_d320_b4_r2/checkpoints/training_state/ckpt-14000
+[TRAIN] step=14100 loss=-2.87925 nmse_prop=0.02327 nmse_ls=0.08800 lr=5.205e-04 step_time=0.458s steps_per_s=1.753 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=14200 loss=-3.12356 nmse_prop=0.01881 nmse_ls=0.05076 lr=5.182e-04 step_time=0.570s steps_per_s=1.755 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=14300 loss=-2.98073 nmse_prop=0.02189 nmse_ls=0.05705 lr=5.160e-04 step_time=0.564s steps_per_s=1.757 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=14400 loss=-3.08880 nmse_prop=0.01955 nmse_ls=0.06218 lr=5.138e-04 step_time=0.458s steps_per_s=1.759 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=14500 loss=-2.49676 nmse_prop=0.03324 nmse_ls=0.12606 lr=5.116e-04 step_time=0.553s steps_per_s=1.761 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=14600 loss=-3.34997 nmse_prop=0.01606 nmse_ls=0.04011 lr=5.093e-04 step_time=0.465s steps_per_s=1.763 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=14700 loss=-2.85449 nmse_prop=0.02352 nmse_ls=0.08208 lr=5.071e-04 step_time=0.566s steps_per_s=1.764 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=14800 loss=-3.44677 nmse_prop=0.01425 nmse_ls=0.04478 lr=5.049e-04 step_time=0.359s steps_per_s=1.766 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=14900 loss=-2.85347 nmse_prop=0.02391 nmse_ls=0.07788 lr=5.027e-04 step_time=0.565s steps_per_s=1.768 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=15000 loss=-3.59895 nmse_prop=0.01271 nmse_ls=0.03640 lr=5.005e-04 step_time=0.258s steps_per_s=1.769 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] saved resumable state at step=15000 reason=periodic: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/TWC_plots_comprehensive/runs_rx16/seed7/1dmrs/wide_d320_b4_r2/checkpoints/training_state/ckpt-15000
+[TRAIN] step=15100 loss=-3.31130 nmse_prop=0.01639 nmse_ls=0.03832 lr=4.983e-04 step_time=0.570s steps_per_s=1.770 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=15200 loss=-3.27406 nmse_prop=0.01749 nmse_ls=0.04405 lr=4.961e-04 step_time=0.457s steps_per_s=1.772 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=15300 loss=-3.18543 nmse_prop=0.01821 nmse_ls=0.05433 lr=4.939e-04 step_time=0.453s steps_per_s=1.774 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=15400 loss=-3.53247 nmse_prop=0.01345 nmse_ls=0.03789 lr=4.918e-04 step_time=0.355s steps_per_s=1.775 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=15500 loss=-2.40022 nmse_prop=0.03563 nmse_ls=0.18179 lr=4.896e-04 step_time=0.465s steps_per_s=1.776 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=15600 loss=-3.19943 nmse_prop=0.01774 nmse_ls=0.06463 lr=4.874e-04 step_time=0.358s steps_per_s=1.778 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=15700 loss=-3.39778 nmse_prop=0.01561 nmse_ls=0.03582 lr=4.852e-04 step_time=0.451s steps_per_s=1.779 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=15800 loss=-2.74135 nmse_prop=0.02639 nmse_ls=0.09812 lr=4.831e-04 step_time=0.563s steps_per_s=1.780 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=15900 loss=-3.37505 nmse_prop=0.01536 nmse_ls=0.05050 lr=4.809e-04 step_time=0.353s steps_per_s=1.782 gpu_mem=0.19GiB peak=8.78GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=16000 val_nmse=0.0237555
+[TRAIN] step=16000 loss=-3.02444 nmse_prop=0.02055 nmse_ls=0.07222 lr=4.787e-04 step_time=151.394s steps_per_s=1.754 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] saved resumable state at step=16000 reason=periodic: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/TWC_plots_comprehensive/runs_rx16/seed7/1dmrs/wide_d320_b4_r2/checkpoints/training_state/ckpt-16000
+[TRAIN] step=16100 loss=-3.20192 nmse_prop=0.01765 nmse_ls=0.05490 lr=4.766e-04 step_time=0.461s steps_per_s=1.755 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=16200 loss=-2.23986 nmse_prop=0.04111 nmse_ls=0.24262 lr=4.744e-04 step_time=0.456s steps_per_s=1.756 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=16300 loss=-2.51436 nmse_prop=0.03178 nmse_ls=0.13973 lr=4.723e-04 step_time=0.563s steps_per_s=1.757 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=16400 loss=-2.38294 nmse_prop=0.03584 nmse_ls=0.17628 lr=4.701e-04 step_time=0.559s steps_per_s=1.759 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=16500 loss=-3.19534 nmse_prop=0.01829 nmse_ls=0.04490 lr=4.680e-04 step_time=0.561s steps_per_s=1.760 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=16600 loss=-2.87708 nmse_prop=0.02318 nmse_ls=0.07714 lr=4.659e-04 step_time=0.569s steps_per_s=1.761 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=16700 loss=-3.37446 nmse_prop=0.01588 nmse_ls=0.03799 lr=4.637e-04 step_time=0.465s steps_per_s=1.763 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=16800 loss=-2.52882 nmse_prop=0.03073 nmse_ls=0.21291 lr=4.616e-04 step_time=0.361s steps_per_s=1.764 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=16900 loss=-2.43231 nmse_prop=0.03422 nmse_ls=0.16831 lr=4.595e-04 step_time=0.542s steps_per_s=1.766 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=17000 loss=-2.69635 nmse_prop=0.02716 nmse_ls=0.12382 lr=4.574e-04 step_time=0.460s steps_per_s=1.767 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] saved resumable state at step=17000 reason=periodic: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/TWC_plots_comprehensive/runs_rx16/seed7/1dmrs/wide_d320_b4_r2/checkpoints/training_state/ckpt-17000
+[TRAIN] step=17100 loss=-3.43238 nmse_prop=0.01544 nmse_ls=0.04199 lr=4.553e-04 step_time=0.355s steps_per_s=1.769 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=17200 loss=-2.61838 nmse_prop=0.02925 nmse_ls=0.11546 lr=4.531e-04 step_time=0.564s steps_per_s=1.770 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=17300 loss=-2.32966 nmse_prop=0.03790 nmse_ls=0.18215 lr=4.510e-04 step_time=0.562s steps_per_s=1.771 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=17400 loss=-2.55577 nmse_prop=0.03040 nmse_ls=0.22241 lr=4.489e-04 step_time=0.258s steps_per_s=1.773 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=17500 loss=-2.50851 nmse_prop=0.03173 nmse_ls=0.17531 lr=4.468e-04 step_time=0.464s steps_per_s=1.774 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=17600 loss=-2.58193 nmse_prop=0.02987 nmse_ls=0.15741 lr=4.448e-04 step_time=0.461s steps_per_s=1.775 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=17700 loss=-2.43128 nmse_prop=0.03493 nmse_ls=0.15521 lr=4.427e-04 step_time=0.550s steps_per_s=1.776 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=17800 loss=-2.23012 nmse_prop=0.04149 nmse_ls=0.24763 lr=4.406e-04 step_time=0.456s steps_per_s=1.778 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=17900 loss=-2.98748 nmse_prop=0.02157 nmse_ls=0.06567 lr=4.385e-04 step_time=0.559s steps_per_s=1.779 gpu_mem=0.19GiB peak=8.78GiB
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+WARNING:tensorflow:Model's `__init__()` arguments contain non-serializable objects. Please implement a `get_config()` method in the subclassed Model for proper saving and loading. Defaulting to empty config.
+[TRAIN] saved new best weights at step=18000 val_nmse=0.021976
+[TRAIN] step=18000 loss=-3.08257 nmse_prop=0.01998 nmse_ls=0.06660 lr=4.364e-04 step_time=150.487s steps_per_s=1.754 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] saved resumable state at step=18000 reason=periodic: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/TWC_plots_comprehensive/runs_rx16/seed7/1dmrs/wide_d320_b4_r2/checkpoints/training_state/ckpt-18000
+[TRAIN] step=18100 loss=-2.90235 nmse_prop=0.02266 nmse_ls=0.07904 lr=4.344e-04 step_time=0.558s steps_per_s=1.755 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=18200 loss=-2.62760 nmse_prop=0.02912 nmse_ls=0.12218 lr=4.323e-04 step_time=0.565s steps_per_s=1.756 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=18300 loss=-2.61077 nmse_prop=0.02882 nmse_ls=0.13438 lr=4.302e-04 step_time=0.559s steps_per_s=1.757 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=18400 loss=-3.31787 nmse_prop=0.01619 nmse_ls=0.04080 lr=4.282e-04 step_time=0.561s steps_per_s=1.758 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=18500 loss=-2.64902 nmse_prop=0.02838 nmse_ls=0.11863 lr=4.261e-04 step_time=0.556s steps_per_s=1.760 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=18600 loss=-3.31302 nmse_prop=0.01686 nmse_ls=0.04390 lr=4.241e-04 step_time=0.459s steps_per_s=1.761 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=18700 loss=-3.15456 nmse_prop=0.01907 nmse_ls=0.04755 lr=4.220e-04 step_time=0.568s steps_per_s=1.762 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=18800 loss=-2.56589 nmse_prop=0.03048 nmse_ls=0.13670 lr=4.200e-04 step_time=0.565s steps_per_s=1.764 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=18900 loss=-2.60776 nmse_prop=0.02922 nmse_ls=0.15454 lr=4.179e-04 step_time=0.461s steps_per_s=1.765 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=19000 loss=-3.18418 nmse_prop=0.01786 nmse_ls=0.07763 lr=4.159e-04 step_time=0.356s steps_per_s=1.766 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] saved resumable state at step=19000 reason=periodic: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/TWC_plots_comprehensive/runs_rx16/seed7/1dmrs/wide_d320_b4_r2/checkpoints/training_state/ckpt-19000
+[TRAIN] step=19100 loss=-2.75949 nmse_prop=0.02640 nmse_ls=0.09460 lr=4.139e-04 step_time=0.551s steps_per_s=1.767 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=19200 loss=-2.95390 nmse_prop=0.02224 nmse_ls=0.10482 lr=4.119e-04 step_time=0.350s steps_per_s=1.768 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=19300 loss=-3.10914 nmse_prop=0.01949 nmse_ls=0.05623 lr=4.098e-04 step_time=0.555s steps_per_s=1.769 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=19400 loss=-3.36684 nmse_prop=0.01583 nmse_ls=0.04247 lr=4.078e-04 step_time=0.455s steps_per_s=1.770 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=19500 loss=-2.95441 nmse_prop=0.02173 nmse_ls=0.09674 lr=4.058e-04 step_time=0.456s steps_per_s=1.771 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=19600 loss=-3.37345 nmse_prop=0.01497 nmse_ls=0.06254 lr=4.038e-04 step_time=0.261s steps_per_s=1.773 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=19700 loss=-3.24573 nmse_prop=0.01655 nmse_ls=0.05705 lr=4.018e-04 step_time=0.455s steps_per_s=1.774 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=19800 loss=-3.19004 nmse_prop=0.01816 nmse_ls=0.04810 lr=3.998e-04 step_time=0.561s steps_per_s=1.775 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=19900 loss=-3.22897 nmse_prop=0.01711 nmse_ls=0.07604 lr=3.978e-04 step_time=0.349s steps_per_s=1.776 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=20000 loss=-2.33635 nmse_prop=0.03805 nmse_ls=0.19034 lr=3.958e-04 step_time=148.118s steps_per_s=1.754 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] saved resumable state at step=20000 reason=periodic: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/TWC_plots_comprehensive/runs_rx16/seed7/1dmrs/wide_d320_b4_r2/checkpoints/training_state/ckpt-20000
+[TRAIN] step=20100 loss=-2.62680 nmse_prop=0.02938 nmse_ls=0.12265 lr=3.938e-04 step_time=0.557s steps_per_s=1.755 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=20200 loss=-2.66073 nmse_prop=0.02827 nmse_ls=0.12220 lr=3.919e-04 step_time=0.558s steps_per_s=1.756 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=20300 loss=-2.70040 nmse_prop=0.02731 nmse_ls=0.16041 lr=3.899e-04 step_time=0.358s steps_per_s=1.758 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=20400 loss=-3.12949 nmse_prop=0.01943 nmse_ls=0.05162 lr=3.879e-04 step_time=0.569s steps_per_s=1.759 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=20500 loss=-3.17107 nmse_prop=0.01788 nmse_ls=0.06678 lr=3.859e-04 step_time=0.450s steps_per_s=1.760 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=20600 loss=-2.85599 nmse_prop=0.02404 nmse_ls=0.08557 lr=3.840e-04 step_time=0.563s steps_per_s=1.761 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=20700 loss=-2.74661 nmse_prop=0.02630 nmse_ls=0.10444 lr=3.820e-04 step_time=0.567s steps_per_s=1.762 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=20800 loss=-2.45579 nmse_prop=0.03360 nmse_ls=0.17131 lr=3.801e-04 step_time=0.563s steps_per_s=1.763 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=20900 loss=-2.53336 nmse_prop=0.03149 nmse_ls=0.15367 lr=3.781e-04 step_time=0.568s steps_per_s=1.764 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=21000 loss=-3.41151 nmse_prop=0.01553 nmse_ls=0.03934 lr=3.762e-04 step_time=0.462s steps_per_s=1.766 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] saved resumable state at step=21000 reason=periodic: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/TWC_plots_comprehensive/runs_rx16/seed7/1dmrs/wide_d320_b4_r2/checkpoints/training_state/ckpt-21000
+[TRAIN] step=21100 loss=-3.17554 nmse_prop=0.01800 nmse_ls=0.08550 lr=3.742e-04 step_time=0.355s steps_per_s=1.766 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=21200 loss=-3.43039 nmse_prop=0.01523 nmse_ls=0.03982 lr=3.723e-04 step_time=0.450s steps_per_s=1.768 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=21300 loss=-2.39345 nmse_prop=0.03593 nmse_ls=0.18891 lr=3.704e-04 step_time=0.557s steps_per_s=1.769 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=21400 loss=-2.83951 nmse_prop=0.02404 nmse_ls=0.11627 lr=3.684e-04 step_time=0.464s steps_per_s=1.770 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=21500 loss=-2.50595 nmse_prop=0.03217 nmse_ls=0.19302 lr=3.665e-04 step_time=0.468s steps_per_s=1.771 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=21600 loss=-2.46703 nmse_prop=0.03329 nmse_ls=0.20451 lr=3.646e-04 step_time=0.466s steps_per_s=1.772 gpu_mem=0.19GiB peak=8.78GiB
+[TRAIN] step=21700 loss=-3.03040 nmse_prop=0.02069 nmse_ls=0.06676 lr=3.627e-04 step_time=0.563s steps_per_s=1.773 gpu_mem=0.19GiB peak=8.78GiB
+2026-06-10 10:46:06.503190: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:306] gpu_async_0 cuMemAllocAsync failed to allocate 55050240 bytes: CUDA error: out of memory (CUDA_ERROR_OUT_OF_MEMORY)
+ Reported by CUDA: Free memory/Total memory: 52756480/85017624576
+2026-06-10 10:46:06.504859: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:311] Stats: Limit:                     82577784832
+InUse:                      9318524893
+MaxInUse:                   9425708501
+NumAllocs:                   128773754
+MaxAllocSize:                132120576
+Reserved:                            0
+PeakReserved:                        0
+LargestFreeBlock:                    0
+
+2026-06-10 10:46:06.505454: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:63] Histogram of current allocation: (allocation_size_in_bytes, nb_allocation_of_that_sizes), ...;
+2026-06-10 10:46:06.505464: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 1, 21
+2026-06-10 10:46:06.505467: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 4, 65447
+2026-06-10 10:46:06.505469: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 8, 62
+2026-06-10 10:46:06.505471: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 12, 50
+2026-06-10 10:46:06.505474: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 16, 5
+2026-06-10 10:46:06.505476: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 24, 6
+2026-06-10 10:46:06.505478: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 28, 8
+2026-06-10 10:46:06.505485: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 32, 1
+2026-06-10 10:46:06.505487: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 64, 10
+2026-06-10 10:46:06.505490: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 96, 20
+2026-06-10 10:46:06.505492: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 112, 6
+2026-06-10 10:46:06.505494: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 128, 5
+2026-06-10 10:46:06.505497: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 192, 20
+2026-06-10 10:46:06.505499: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 224, 2
+2026-06-10 10:46:06.505501: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 256, 3
+2026-06-10 10:46:06.505504: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 336, 2
+2026-06-10 10:46:06.505506: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 384, 10
+2026-06-10 10:46:06.505508: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 448, 2
+2026-06-10 10:46:06.505510: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 512, 4
+2026-06-10 10:46:06.505513: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 768, 14
+2026-06-10 10:46:06.505515: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 1028, 1
+2026-06-10 10:46:06.505517: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 1280, 253
+2026-06-10 10:46:06.505520: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 1536, 2
+2026-06-10 10:46:06.505523: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 1920, 50
+2026-06-10 10:46:06.505527: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 2304, 1
+2026-06-10 10:46:06.505529: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 2560, 24
+2026-06-10 10:46:06.505532: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 3072, 2
+2026-06-10 10:46:06.505534: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 5376, 11
+2026-06-10 10:46:06.505537: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 6144, 1
+2026-06-10 10:46:06.505539: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 9216, 1
+2026-06-10 10:46:06.505542: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 10752, 4
+2026-06-10 10:46:06.505544: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 11520, 16
+2026-06-10 10:46:06.505546: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 12288, 1
+2026-06-10 10:46:06.505549: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 16128, 2
+2026-06-10 10:46:06.505551: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 19968, 9
+2026-06-10 10:46:06.505554: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 21504, 4
+2026-06-10 10:46:06.505556: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 30720, 4
+2026-06-10 10:46:06.505558: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 32256, 2
+2026-06-10 10:46:06.505561: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 39936, 2
+2026-06-10 10:46:06.505563: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 40960, 26
+2026-06-10 10:46:06.505566: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 43008, 2
+2026-06-10 10:46:06.505568: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 59904, 1
+2026-06-10 10:46:06.505575: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 79872, 2
+2026-06-10 10:46:06.505577: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 81920, 4
+2026-06-10 10:46:06.505580: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 97280, 4
+2026-06-10 10:46:06.505582: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 119808, 1
+2026-06-10 10:46:06.505585: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 159744, 1
+2026-06-10 10:46:06.505587: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 163840, 5
+2026-06-10 10:46:06.505589: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 172032, 33
+2026-06-10 10:46:06.505592: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 190464, 4
+2026-06-10 10:46:06.505594: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 194560, 4
+2026-06-10 10:46:06.505597: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 216320, 3
+2026-06-10 10:46:06.505599: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 409600, 152
+2026-06-10 10:46:06.505601: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 602112, 4
+2026-06-10 10:46:06.505604: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 819200, 48
+2026-06-10 10:46:06.505606: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 1376256, 1
+2026-06-10 10:46:06.505609: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 2408448, 4
+2026-06-10 10:46:06.505611: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 2752512, 3
+2026-06-10 10:46:06.505613: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 4128768, 5
+2026-06-10 10:46:06.505616: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 5505024, 4
+2026-06-10 10:46:06.505618: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 8257536, 2
+2026-06-10 10:46:06.505621: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 9633792, 8
+2026-06-10 10:46:06.505623: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 11010048, 6
+2026-06-10 10:46:06.505625: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 13762560, 16
+2026-06-10 10:46:06.505628: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 16515072, 4
+2026-06-10 10:46:06.505630: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 22020096, 2
+2026-06-10 10:46:06.505633: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 27525120, 4
+2026-06-10 10:46:06.505635: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 29073408, 1
+2026-06-10 10:46:06.505637: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 55050240, 113
+2026-06-10 10:46:06.505640: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 66060288, 8
+2026-06-10 10:46:06.505642: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:66] 110100480, 16
+2026-06-10 10:46:06.505648: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:97] CU_MEMPOOL_ATTR_RESERVED_MEM_CURRENT: 84255178752
+2026-06-10 10:46:06.505651: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:99] CU_MEMPOOL_ATTR_USED_MEM_CURRENT: 9318524893
+2026-06-10 10:46:06.505655: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:100] CU_MEMPOOL_ATTR_RESERVED_MEM_HIGH: 84288733184
+2026-06-10 10:46:06.505658: E external/local_xla/xla/stream_executor/gpu/gpu_cudamallocasync_allocator.cc:101] CU_MEMPOOL_ATTR_USED_MEM_HIGH: 9425708501
+[TRAIN] saved resumable state at step=21723 reason=resource_exhausted: /scratch/rsadve1/Extended_UPAIR_Narval_b32m16_portable/TWC_plots_comprehensive/runs_rx16/seed7/1dmrs/wide_d320_b4_r2/checkpoints/training_state/ckpt-21723
+Traceback (most recent call last):
+  File "/home/rsadve1/scratch/Extended_UPAIR_Narval_b32m16_portable/scripts/run_comprehensive_mu32_ablation.py", line 615, in <module>
+    main()
+  File "/home/rsadve1/scratch/Extended_UPAIR_Narval_b32m16_portable/scripts/run_comprehensive_mu32_ablation.py", line 524, in main
+    train_result = train_model(train_cfg)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rsadve1/scratch/Extended_UPAIR_Narval_b32m16_portable/src/upair5g/training.py", line 659, in train_model
+    metrics = _train_step(
+              ^^^^^^^^^^^^
+  File "/home/rsadve1/scratch/.vevn_upair_potable/lib/python3.11/site-packages/tensorflow/python/util/traceback_utils.py", line 153, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/rsadve1/scratch/.vevn_upair_potable/lib/python3.11/site-packages/tensorflow/python/eager/execute.py", line 53, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tensorflow.python.framework.errors_impl.ResourceExhaustedError: Graph execution error:
+
+Detected at node gradient_tape/delta_head/Conv2D/Conv2DBackpropInput defined at (most recent call last):
+  File "/home/rsadve1/scratch/Extended_UPAIR_Narval_b32m16_portable/scripts/run_comprehensive_mu32_ablation.py", line 615, in <module>
+
+  File "/home/rsadve1/scratch/Extended_UPAIR_Narval_b32m16_portable/scripts/run_comprehensive_mu32_ablation.py", line 524, in main
+
+  File "/home/rsadve1/scratch/Extended_UPAIR_Narval_b32m16_portable/src/upair5g/training.py", line 659, in train_model
+
+  File "/home/rsadve1/scratch/Extended_UPAIR_Narval_b32m16_portable/src/upair5g/training.py", line 261, in _train_step
+
+OOM when allocating tensor with shape[32,14,96,320] and type float on /job:localhost/replica:0/task:0/device:GPU:0 by allocator gpu_async_0
+	 [[{{node gradient_tape/delta_head/Conv2D/Conv2DBackpropInput}}]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info. This isn't available when running in Eager mode.
+ [Op:__inference__train_step_91431]
